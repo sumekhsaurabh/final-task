@@ -1,0 +1,189 @@
+
+@media (min-width: 992px)and (max-width: 1200px) {
+
+    .container {
+        width: 960px;
+
+    }
+
+    .container-inner {
+        width: 960px;
+        /* padding: 0px 66px; */
+        padding: 0px 66px 0px 66px;
+    }
+
+    .nav_list ul {
+        gap: 35px;
+    }
+   
+   
+
+    .card {
+        top: 446px;
+        right: 252px;
+        text-align: left;
+        /* background-color: aqua; */
+
+    }
+
+    .header {
+        margin-bottom: 406px;
+    }
+
+    .header-content {
+        width: auto;
+    }
+
+    .header-inner {
+        padding-top: 86px;
+        text-align: center;
+    }
+
+    .header-descrip {
+        margin-bottom: 24px;
+        margin-top: 8px;
+        padding: 0px 0px 0px 0px;
+
+    }
+
+    /* .header-inner button {
+        margin-bottom: 61px;
+    } */
+
+    .header-icons {
+        justify-content: center;
+    }
+
+    .header-inner-btn {
+        margin-bottom: 55px;
+    }
+    .section-line{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    /* new */
+
+    #section-btn {
+        display: block;
+        margin: 0px auto 16px auto;
+    }
+
+
+
+    .housting-left-img {
+        width: 100%;
+    }
+
+    .housting-left-img img {
+        width: 100%;
+    }
+
+    .housting-right {
+        margin-top: 51px;
+    }
+
+    .houstin-right-para {
+        margin-bottom: 15px;
+    }
+
+    .housting-lower {
+        gap: 51px;
+    }
+
+    .housting-lower-left {
+        padding-top: 0px;
+    }
+
+    .housting-lower-right {
+        width: 185%;
+    }
+
+    .housting-lower-right img {
+        /* width: 103%; */
+    }
+
+    /* .rentalProperty-right{
+        padding-left: 30px;
+    } */
+    .feature-section{
+        padding-top: 140px !important;
+    }
+
+    .controlOver {
+        gap: 67px;
+        padding-right: 51px;
+        margin-bottom: 80px;
+    }
+
+    .rentalProperty-right {
+        padding-right: 0px;
+    }
+
+    .paymentMade-right {
+        padding-top: 41px;
+    }
+    .paymentStatus ul li {
+        font-size: 13px;
+    }
+    .paymentStatus ul li img {
+        width: 26%;
+    }
+
+    .paymentMade {
+        padding-right: 0px;
+        gap: 51px;
+    }
+
+    /* our-blogs--- */
+    .ourblogs{
+        margin-top: 100px;
+    }
+
+    .ourBlog-card-1-content {
+        padding-left: 21px;
+    }
+
+    .card-1-img {
+        top: 129px;
+    }
+
+    .card-2-img {
+        top: 315px;
+    }
+
+
+    .ourBlog-card-3-read {
+        left: 37px;
+    }
+
+    .ourBlog-card-3-read {
+        bottom: 18px;
+    }
+
+    .readyToEarn {
+        padding-left: 45px;
+        margin-bottom: 75px;
+    }
+    .radyToEarn-container{
+        margin-top: 100px;
+    }
+    /* footer-- */
+    .footer{
+        grid-area: 45px;
+    }
+    .productService{
+        gap: 45px;
+    }
+    .companyMore-last-row li{
+        padding-right: 10px;
+    }
+    .companyMore{
+        gap: 45px;
+    } 
+    .footer-nav{
+       gap: 45px;
+    }
+
+
+}

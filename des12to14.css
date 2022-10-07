@@ -1,0 +1,45 @@
+@media (min-width: 1200px)and (max-width: 1400px) {
+    .container {
+        width: 1140px;
+
+    }
+
+    .container-inner {
+        width: 1000px;
+    }
+    
+   
+
+    /* housting-- */
+
+    .housting-right {
+        margin-top: 80px;
+    }
+
+    .houstin-right-para {
+        margin-bottom: 21px;
+    }
+
+    .housting-lower {
+        gap: 51px;
+    }
+
+    .controlOver {
+        padding-right: 51px;
+        gap: 136px;
+    }
+
+    .paymentMade {
+        padding-right: 50px;
+        gap: 75px;
+    }
+
+    .ourBlog-card-3-read {
+        left: 55px;
+    }
+
+    .card-1-img {
+        top: 165px;
+    }
+
+}

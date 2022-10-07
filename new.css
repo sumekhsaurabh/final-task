@@ -113,7 +113,7 @@ button span {
     height: 560px;
     border-radius: 16px;
 
-    margin-bottom: 150px;
+    margin-bottom: 144px;
 
     background-image: url("./assets/header-image.png");
 
@@ -251,8 +251,8 @@ button span {
 .section-line {
     height: 2px;
     border-bottom: 1px solid #E5EAF4;
-    margin-top: 140px;
-    margin-bottom: 140px;
+    margin-top: 144px;
+    margin-bottom: 144px;
 }
 
 /* housting-- */
@@ -377,20 +377,19 @@ button span {
 
 /* our-feature-- */
 .feature-section {
-    margin-top: 144px;
-    background-image: url("./assets/backg.png");
+    /* margin-top: 144px; */
+    padding-top: 144px;
+    /* background-image: url("./assets/backg.png"); */
+    background: linear-gradient(#F8FBFF, #FFFFFF);
+    border-radius: 8px;
 }
 
-.controlOver {
-    margin-top: 64px !important;
-    padding-right: 0px !important;
-}
 
 .controlOver {
     margin-top: 126px;
     gap: 200px;
-    margin-bottom: 126px;
-    padding-right: 100px;
+    margin-bottom: 144px;
+    padding-right: 0px;
 }
 
 #rental-tab-img {
@@ -736,7 +735,7 @@ button span {
     background-image: url("./assets/tree.png");
     border: 1px solid #faf9f6;
     border-color: none;
-    margin-bottom: 125px;
+    margin-bottom: 128px;
     padding-left: 95px;
     border-radius: 16px;
 
