@@ -1,0 +1,1290 @@
+@media (min-width: 1400px) {
+    .container {
+        width: 1320px !important;
+       
+    }
+    .container-inner {
+        width: 1140px !important;
+        /* background-color: antiquewhite !important; */
+    }
+ 
+  
+}
+
+@media (min-width: 1200px)and (max-width: 1400px) {
+    .container {
+        width: 1140px !important;
+
+    }
+
+    .container-inner {
+        width: 1000px !important;
+    }
+    
+   
+
+    /* housting-- */
+
+    .housting-right {
+        margin-top: 80px !important;
+    }
+
+    .houstin-right-para {
+        margin-bottom: 21px !important;
+    }
+
+    .housting-lower {
+        gap: 51px !important;
+    }
+
+    .controlOver {
+        padding-right: 51px !important;
+        gap: 136px !important;
+    }
+
+    .paymentMade {
+        padding-right: 50px !important;
+        gap: 75px !important;
+    }
+
+    .ourBlog-card-3-read {
+        left: 55px !important;
+    }
+
+    .card-1-img {
+        top: 165px !important;
+    }
+
+}
+
+@media (min-width: 992px)and (max-width: 1200px) {
+
+    .container {
+        width: 960px !important;
+
+    }
+
+    .container-inner {
+        width: 960px !important;
+        /* padding: 0px 66px !important; */
+        padding: 0px 66px 0px 66px !important;
+    }
+
+    .nav_list ul {
+        gap: 35px !important;
+    }
+   
+   
+
+    .card {
+        top: 446px !important;
+        right: 252px !important;
+        text-align: left !important;
+        /* background-color: aqua !important; */
+
+    }
+
+    .header {
+        margin-bottom: 406px !important;
+    }
+
+    .header-content {
+        width: auto !important;
+    }
+
+    .header-inner {
+        padding-top: 86px !important;
+        text-align: center !important;
+    }
+
+    .header-descrip {
+        margin-bottom: 24px !important;
+        margin-top: 8px !important;
+        padding: 0px 0px 0px 0px !important;
+
+    }
+
+    /* .header-inner button {
+        margin-bottom: 61px !important;
+    } */
+
+    .header-icons {
+        justify-content: center;
+    }
+
+    .header-inner-btn {
+        margin-bottom: 55px !important;
+    }
+
+    /* new */
+
+    #section-btn {
+        display: block;
+        margin: 0px auto 16px auto;
+    }
+
+
+    .housting-left-img {
+        width: 100% !important;
+    }
+
+    .housting-left-img img {
+        width: 100% !important;
+    }
+
+    .housting-right {
+        margin-top: 51px !important;
+    }
+
+    .houstin-right-para {
+        margin-bottom: 15px !important;
+    }
+
+    .housting-lower {
+        gap: 51px !important;
+    }
+
+    .housting-lower-left {
+        padding-top: 0px !important;
+    }
+
+    .housting-lower-right {
+        width: 185% !important;
+    }
+
+    .housting-lower-right img {
+        /* width: 103% !important; */
+    }
+
+    /* .rentalProperty-right{
+        padding-left: 30px !important;
+    } */
+
+    .controlOver {
+        gap: 67px !important;
+        padding-right: 51px !important;
+    }
+
+    .rentalProperty-right {
+        padding-right: 0px !important;
+    }
+
+    .paymentMade-right {
+        padding-top: 41px !important;
+    }
+
+    .paymentMade {
+        padding-right: 0px !important;
+        gap: 51px !important;
+    }
+
+    /* our-blogs--- */
+
+    .ourBlog-card-1-content {
+        padding-left: 21px !important;
+    }
+
+    .card-1-img {
+        top: 129px !important;
+    }
+
+    .card-2-img {
+        top: 315px !important;
+    }
+
+
+    .ourBlog-card-3-read {
+        left: 37px !important;
+    }
+
+    .ourBlog-card-3-read {
+        bottom: 18px;
+    }
+
+    .readyToEarn {
+        padding-left: 45px !important;
+    }
+    /* footer-- */
+    .footer{
+        grid-area: 45px !important;
+    }
+    .productService{
+        gap: 45px !important;
+    }
+    .companyMore-last-row li{
+        padding-right: 10px;
+    }
+    .companyMore{
+        gap: 45px !important;
+    } 
+    .footer-nav{
+       gap: 45px !important;
+    }
+
+
+}
+
+@media (min-width: 768px)and (max-width: 992px) {
+     .container {
+        width: 720px !important;
+
+    }
+
+    .container-inner {
+        width: 720px !important;
+    }
+    .tab-mob-version{
+        display: block !important;
+    
+    }
+    .desktop-version {
+        display: none !important;
+    
+    }
+    
+
+    .header {
+        background-image: url("./assets/tab-header.png") !important;
+        height: 587px !important;
+        margin-bottom: 406px !important;
+    }
+
+    .header-content {
+        width: auto !important;
+    }
+
+    .header-inner {
+        padding-top: 86px !important;
+        text-align: center !important;
+    }
+
+    .header-descrip {
+        margin-bottom: 24px !important;
+        margin-top: 8px !important;
+        padding: 0px 39px 0px 39px !important;
+        
+
+    }
+
+    .header-inner-btn {
+        margin-bottom: 78px !important;
+    }
+
+    .header-icons {
+        justify-content: center;
+    }
+
+    .header-inner-btn {
+        margin-bottom: 81px !important;
+    } 
+
+    /* card-- */
+    .card {
+        top: 468px !important;
+        right: 132px !important;
+        text-align: left !important;
+    } 
+
+    /* get-paid quikly-- */
+     #section-btn {
+        display: block !important;
+        margin: auto !important;
+    }
+
+    .Lets-rent {
+        display: block !important;
+    }
+
+    .Lets-rent-title {
+        text-align: center;
+        margin-bottom: 56px !important;
+    }
+
+    .putYour-screenguist-inner {
+        display: block !important;
+    }
+
+    .putYour-screenguist-icon {
+        text-align: center;
+        margin-bottom: 9px;
+    }
+
+    .putYour-screenguist-content {
+        text-align: center;
+        margin-left: 0px !important;
+    }
+
+    .section-line {
+        margin-top: 55px !important;
+        margin-bottom: 80px !important;
+    }
+
+    /* housting-- */
+     .housting-content {
+        display: block !important;
+        margin-top: 64px !important;
+    }
+
+    .tellUs {
+        display: block !important;
+    }
+
+    .numberCircle {
+        margin: auto !important;
+    }
+
+    .housting-right {
+        margin-top: 48px !important;
+    }
+
+    .houstin-right-title {
+        text-align: center !important;
+        margin-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    .houstin-right-para {
+        text-align: center !important;
+        margin-left: 0px !important;
+        padding: 0px 70px !important;
+        margin-bottom: 40px !important;
+        
+    }
+
+    .housting-learnMore-Btn {
+        display: block !important;
+        margin: auto !important;
+    } 
+
+    /* housting-lower-- */
+     .housting-lower {
+        display: block !important;
+        margin-top: 112px !important;
+        padding-left: 0px !important;
+        margin-bottom: 120px !important;
+    }
+
+    .housting-lower-left {
+        padding-top: 0px !important;
+        text-align: center !important;
+        margin-bottom: 63px !important;
+        padding-right: 0px !important;
+    }
+
+    .housting-lower-para {
+        padding: 0px 64px !important;
+    }
+
+    .housting-lower-right {
+        
+        display: flex;
+        justify-content: center;
+    }
+
+    #housting-lower-desk-img {
+        display: none !important;
+    }
+
+    #housting-lower-tab-img {
+        display: block !important;
+    } 
+
+
+    /* our feature--- */
+
+     .feature-section {
+        margin-top: 80px !important;
+    }
+
+    #rental-tab-img {
+        display: block !important;
+    }
+
+    #rental-desktp-img {
+        display: none !important;
+    }
+
+    #payment-tab-img {
+        display: block !important;
+    }
+
+    #payment-desktp-img {
+        display: none !important;
+    }
+
+    .reantal-property {
+        padding-left: 30px !important;
+    }
+
+    .rentalProperty-right {
+        padding-right: 0px !important;
+    }
+
+    .controlOver {
+        gap: 38px !important;
+    }
+
+    .paymentMade {
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+        gap: 38px !important;
+    }
+
+    .paymentStatus ul li img {
+        width: 26% !important;
+    } 
+
+
+    /* my-blogs--- */
+     .ourBlog-cards {
+        margin-top: 52px !important;
+        gap: 24px !important;
+    }
+
+    .ourBlog-card-3 {
+        display: none !important;
+    }
+
+    .ourblogs {
+        margin-top: 120px !important;
+    } 
+
+    /* host-world-wide-- */
+
+
+     .hostWorldwide-inner {
+        display: block !important;
+    }
+
+    .hostAvarage {
+        margin-bottom: 67px !important;
+    } 
+
+    /* ready-to-earn--- */
+
+     .radyToEarn-container {
+        margin-top: 80px !important;
+    }
+
+    .readyToEarn {
+        padding-left: 60px !important;
+        background-image: url("./assets/tree-tab.png") !important;
+    }
+
+    .readyToEarn-heading {
+        margin-top: 89px !important;
+    } 
+     /* footer--- */
+
+    footer {
+        margin-left: 50px !important;
+    }
+
+    .footer-nav {
+        display: block !important;
+    }
+
+    .social-media {
+        width: auto !important;
+    }
+
+    .productService {
+        width: auto !important;
+    }
+
+    .companyMore {
+        width: auto !important;
+        padding-top: 24px !important;
+    }
+
+    .productService-last-row {
+        padding-right: 15px !important;
+    }
+
+    .companyMore-last-row li {
+        padding-right: 15px !important;
+    }
+
+
+}
+
+
+
+
+
+
+@media (min-width: 576px)and (max-width: 768px) {
+    .container {
+        width: 540px !important;
+
+    }
+
+    .container-inner {
+        width: 540px !important;
+    }
+
+    .container-inner {
+        width: 720px !important;
+    }
+    .tab-mob-version{
+        display: block  !important;
+    
+    }
+    .desktop-version {
+        display: none !important;
+    
+    }
+    .topnav a{
+        padding: 23px 18px !important;
+    }
+    
+
+
+
+    /* header--- */
+     .header {
+        height: 481px !important;
+        margin-bottom: 400px !important;
+    }
+
+    .header-inner {
+        padding-top: 0px !important;
+    }
+
+    .header-content {
+        width: 100% !important;
+        margin-top: 51px !important;
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+        text-align: center;
+    }
+
+    .header-inner h2 {
+        font-size: 32px !important;
+        line-height: 40px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .header-descrip {
+        font-size: 20px !important;
+        line-height: 28px !important;
+        padding-bottom: 16px !important;
+    }
+
+    .header-inner-btn {
+        margin-bottom: 31px !important;
+    }
+
+    .header-icons {
+        justify-content: center;
+    }
+
+    .card {
+        right: 40px !important;
+        top: 367px !important;
+    } 
+
+    /* get paid quickly--- */
+    .section-tittle {
+        margin-top: 24px !important;
+    }
+
+    #section-btn {
+        display: block !important;
+        margin: auto !important;
+    }
+
+    .Lets-rent {
+        display: block !important;
+    }
+
+    .putYour-screenguist {
+        display: block !important;
+    }
+
+    .putYour-screenguist-inner {
+        display: block !important;
+        text-align: center !important;
+    }
+
+    .Lets-rent-title {
+        padding: 0px 20px !important;
+        text-align: center !important;
+        margin-bottom: 40px !important;
+        margin-top: 26px !important;
+    }
+
+    .putYour-screenguist-icon {
+        margin-bottom: 23px !important;
+    }
+
+    .putYour-screenguist-descri {
+        font-size: 16px !important;
+        line-height: 28px !important;
+        padding: 0 30px !important;
+        margin-bottom: 40px !important;
+    }
+
+    .putYour-screenguist-content {
+        margin-left: 0px !important;
+    }
+
+    .section-line {
+        margin: 55px 0px 65px 0px !important;
+    }
+
+    /* housting--- */
+    .housting-content {
+        display: block !important;
+        margin-top: 24px !important;
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+    }
+
+    .housting-left-img img {
+        width: 100% !important;
+    }
+
+    .houstin-right-para {
+        padding-right: 0px !important;
+        margin-left: 0px !important;
+        margin-bottom: 40px !important;
+        font-size: 16px !important;
+        line-height: 28px !important;
+    }
+
+    .houstin-right-title {
+        margin: 23px 0px 7px 0px;
+        padding-right: 0px !important;
+
+    }
+
+    .housting-right {
+        margin-top: 40px !important;
+    }
+
+    .tellUs {
+        display: block !important;
+        text-align: center !important;
+    }
+
+    .numberCircle {
+        margin: auto !important;
+    }
+
+    .housting-learnMore-Btn {
+        display: block !important;
+        margin: auto !important;
+    }
+
+    /* ready to earn-- */
+
+
+    .readyToEarn {
+        background-image: url("./assets/tree-tab.png") !important;
+    }
+
+    .housting-lower {
+        margin-top: 88px !important;
+        display: block !important;
+        padding: 0px !important;
+        margin-bottom: 80px !important;
+    }
+
+    .housting-lower-left {
+        padding: 0px !important;
+        text-align: center !important;
+        /* padding-left: 0px !important; */
+
+    }
+
+    .housting-lower-para {
+        padding: 0px 25px !important;
+        margin-bottom: 24px !important;
+        font-size: 28px !important;
+        line-height: 44px !important;
+        letter-spacing: 1px !important;
+    }
+
+    .housting-lower-right {
+        display: none !important;
+    }
+
+    /* our feature-- */
+    .feature-section {
+        margin-top: 80px !important;
+    }
+
+    .controlOver {
+        flex-direction: column-reverse !important;
+        gap: 0px !important;
+        margin-bottom: 64px !important;
+        background-color: red;
+    }
+
+    .rental-payment-title {
+        padding: 0px 20px !important;
+    }
+
+    .rentalProperty-right {
+        padding-top: 0px !important;
+        display: block !important;
+        margin: auto !important;
+        padding-right: 0px !important;
+    }
+
+    .paymentMade {
+        display: block !important;
+        padding: 0px !important;
+        /* justify-content: center !important; */
+    }
+
+    .reantal-property {
+        padding: 64px 0px 0px 0px !important;
+
+        /* margin-top: 64px !important; */
+        /* padding-top: 0px !important; */
+        /* padding-left: 0px !important; */
+        text-align: center;
+    }
+
+    .rental-payment-title-descrip {
+        font-size: 16px !important;
+        line-height: 28px !important;
+        padding: 0px 20px !important;
+    }
+
+    .paymentMade-right {
+        text-align: center !important;
+        padding-top: 0px !important;
+        margin-top: 64px !important;
+    }
+
+    .paymentStatus {
+        display: block !important;
+    }
+
+    .paymentStatus ul li {
+        /* margin: auto !important; */
+    }
+
+    .paymentMade-left {
+        text-align: center !important;
+    }
+
+    .watchMore {
+        justify-content: center !important;
+    }
+
+    /* our-blogs--- */
+    .ourBlog-cards {
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 32px !important;
+    }
+
+    .ourblogs {
+        margin-top: 80px !important;
+    }
+
+    /* host worl wide-- */
+    .hostWorldwide-inner {
+        display: block !important;
+    }
+
+    .hostWorldwide-inner {
+        margin-top: 49px !important;
+    }
+
+    .hostAvarage {
+        display: block !important;
+    }
+
+    .newTotal {
+        display: block !important;
+    }
+
+    .hostWorldwide-card {
+        margin-top: 48px !important;
+    }
+
+    .hostWorldwide-counter {
+        font-size: 32px !important;
+    }
+
+    .hostWorldwide-title {
+        font-size: 16px !important;
+    }
+
+    /* ready to earn-- */
+    .radyToEarn-container{
+        margin-top: 79px !important;
+    }
+
+    .readyToEarn {
+        padding-left: 40px !important;
+        margin-bottom: 61px !important;
+    }
+    .readyToEarn-btn{
+        margin-bottom: 64px !important;
+    }
+
+    /* footer-- */
+
+    footer{
+       
+        flex-direction: column-reverse !important;
+        margin-left: 0px !important;
+        gap: 24px !important;
+     }
+     .social-media{
+        width: 50% !important;
+        margin: auto !important;
+        text-align: center !important;
+        height: auto !important;
+     }
+     .social-media ul{
+        justify-content: center !important;
+     }
+     .footer-nav{
+        display: block !important;
+        /* width: 95% !important; */
+        height: auto !important;
+     } 
+     .productService{
+        /* width: 100% !important; */
+        padding-left: 20px !important;
+        justify-content: center !important;
+        gap: 140px !important;
+        
+        
+     } 
+     .productService-last-row{
+        padding-right: 0px !important;
+        padding-right: 20px !important;
+     }
+     .companyMore {
+        /* width: 100% !important; */
+        justify-content: center !important;
+        gap: 160px !important;
+       
+     }
+     .companyMore-last-row li{
+     padding-right: 20px !important;
+     }
+     .companyMore{
+        padding-left: 20px !important;
+     }
+}
+
+
+@media (min-width: 310px)and (max-width: 576px) {
+    .container {
+        width: 100% !important;
+
+    }
+
+    .container-inner {
+        width: 100% !important;
+    }
+
+    .container-inner {
+        width: 720px !important;
+    }
+    .tab-mob-version{
+        display: block !important;
+    
+    }
+    .desktop-version {
+        display: none !important;
+    
+    } 
+    .topnav a{
+        padding: 23px 18px !important;
+    }
+      /* header--- */
+      .header {
+        height: 481px !important;
+        margin-bottom: 400px !important;
+        background-image: url("./assets/mobile-header.png") !important;
+        border-radius: 0px !important;
+    }
+
+    .header-inner {
+        padding-top: 0px !important;
+    }
+
+    .header-content {
+        width: 100% !important;
+        margin-top: 51px !important;
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+        text-align: left !important;
+        padding-left: 24px !important;
+    }
+
+    .header-inner h2 {
+        font-size: 32px !important;
+        line-height: 40px !important;
+        margin-bottom: 20px !important;
+    }
+
+    .header-descrip {
+        font-size: 20px !important;
+        line-height: 28px !important;
+        padding-bottom: 16px !important;
+        padding-left: 0px !important;
+    }
+
+    .header-inner-btn {
+        margin-bottom: 31px !important;
+    }
+
+    .header-icons {
+        justify-content: center;
+        display: none !important;
+    }
+
+    .card {
+        left: 24px!important;
+        top: 367px !important;
+    } 
+
+    /* get paid quickly--- */
+    .section-tittle {
+        margin-top: 24px !important;
+    }
+
+    #section-btn {
+        display: block !important;
+        margin: auto !important;
+    }
+
+    .Lets-rent {
+        display: block !important;
+    }
+
+    .putYour-screenguist {
+        display: block !important;
+    }
+
+    .putYour-screenguist-inner {
+        display: block !important;
+        text-align: center !important;
+    }
+
+    .Lets-rent-title {
+        padding: 0px 20px !important;
+        text-align: center !important;
+        margin-bottom: 40px !important;
+        margin-top: 26px !important;
+    }
+
+    .putYour-screenguist-icon {
+        margin-bottom: 23px !important;
+    }
+
+    .putYour-screenguist-descri {
+        font-size: 16px !important;
+        line-height: 28px !important;
+        padding: 0 30px !important;
+        margin-bottom: 40px !important;
+    }
+
+    .putYour-screenguist-content {
+        margin-left: 0px !important;
+    }
+
+    .section-line {
+        margin: 55px 0px 65px 0px !important;
+    }
+
+    /* housting--- */
+    .housting-content {
+        display: block !important;
+        margin-top: 24px !important;
+        padding-left: 40px !important;
+        padding-right: 40px !important;
+    }
+
+    .housting-left-img img {
+        width: 100% !important;
+    }
+
+    .houstin-right-para {
+        padding-right: 0px !important;
+        margin-left: 0px !important;
+        margin-bottom: 40px !important;
+        font-size: 16px !important;
+        line-height: 28px !important;
+    }
+
+    .houstin-right-title {
+        margin: 23px 0px 7px 0px;
+        padding-right: 0px !important;
+
+    }
+
+    .housting-right {
+        margin-top: 40px !important;
+    }
+
+    .tellUs {
+        display: block !important;
+        text-align: center !important;
+    }
+
+    .numberCircle {
+        margin: auto !important;
+    }
+
+    .housting-learnMore-Btn {
+        display: block !important;
+        margin: auto !important;
+    }
+
+    /* ready to earn-- */
+
+
+    .readyToEarn {
+        background-image: url("./assets/tree-tab.png") !important;
+    }
+
+    .housting-lower {
+        margin-top: 88px !important;
+        display: block !important;
+        padding: 0px !important;
+        margin-bottom: 80px !important;
+    }
+
+    .housting-lower-left {
+        padding: 0px !important;
+        text-align: center !important;
+        /* padding-left: 0px !important; */
+
+    }
+
+    .housting-lower-para {
+        padding: 0px 25px !important;
+        margin-bottom: 24px !important;
+        font-size: 28px !important;
+        line-height: 44px !important;
+        letter-spacing: 1px !important;
+    }
+
+    .housting-lower-right {
+        display: none !important;
+    }
+
+    /* our feature-- */
+    .feature-section {
+        margin-top: 80px !important;
+    }
+
+    .controlOver {
+        flex-direction: column-reverse !important;
+        gap: 0px !important;
+        margin-bottom: 64px !important;
+
+    }
+
+    .rental-payment-title {
+        padding: 0px 20px !important;
+    }
+
+    .rentalProperty-right {
+        padding-top: 0px !important;
+        display: block !important;
+        margin: auto !important;
+        padding-right: 0px !important;
+    }
+
+    .paymentMade {
+        display: block !important;
+        padding: 0px !important;
+        /* justify-content: center !important; */
+    }
+
+    .reantal-property {
+        padding: 64px 0px 0px 0px !important;
+
+        /* margin-top: 64px !important; */
+        /* padding-top: 0px !important; */
+        /* padding-left: 0px !important; */
+        text-align: center;
+    }
+
+    .rental-payment-title-descrip {
+        font-size: 16px !important;
+        line-height: 28px !important;
+        padding: 0px 20px !important;
+    }
+
+    .paymentMade-right {
+        text-align: center !important;
+        padding-top: 0px !important;
+        margin-top: 64px !important;
+    }
+
+    .paymentStatus {
+        display: block !important;
+    }
+
+    .paymentStatus ul li {
+        /* margin: auto !important; */
+    }
+
+    .paymentMade-left {
+        text-align: center !important;
+    }
+
+    .watchMore {
+        justify-content: center !important;
+    }
+
+    /* our-blogs--- */
+    .ourBlog-cards {
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 32px !important;
+    }
+
+    .ourblogs {
+        margin-top: 80px !important;
+    }
+    .cards{
+        width: 330px !important;
+    }
+
+    /* host worl wide-- */
+    .hostWorldwide-inner {
+        display: block !important;
+    }
+
+    .hostWorldwide-inner {
+        margin-top: 49px !important;
+    }
+
+    .hostAvarage {
+        display: block !important;
+    }
+
+    .newTotal {
+        display: block !important;
+    }
+
+    .hostWorldwide-card {
+        margin-top: 40px !important;
+    }
+
+    .hostWorldwide-counter {
+        font-size: 32px !important;
+    }
+
+    .hostWorldwide-title {
+        font-size: 16px !important;
+    }
+
+    .readyToEarn {
+        padding-left: 40px !important;
+        margin-bottom: 48px !important;
+    }
+    .readyToEarn-btn{
+        margin-bottom: 64px !important;
+    }
+    .radyToEarn-container{
+        margin-top: 79px !important;
+    }
+
+    /* card-- */
+
+   .card{
+    width: 304px !important;
+    height: 481px !important;
+     /* padding-left: 24px; 
+     padding-top: 32px;  */
+    padding: 32px 0px 0px 24px !important;
+
+   }
+   .card .earn-extra{
+    font-size: 14px !important;
+    letter-spacing: 0.2px !important;
+   }
+   .card-tbns{
+    display: block !important;
+    padding-right: 24px !important;
+   }
+   #guests-btn{
+    width: 100% !important;
+    margin-left: 0px!important;
+    padding-right: 32px !important;
+   }
+   .card input{
+    width: 91% !important;
+    padding-right: 32px !important;
+   }
+   #getStat{
+    width: 91% !important;
+   }
+   #place-btn{
+    width: 100%!important;
+   }
+   .card-amount{
+    font-size: 36px !important;
+    line-height: 46px !important;
+   }
+   .card h3{
+    font-size: 20px !important;
+    line-height: 24px !important;
+    margin-bottom: 10px !important;
+   }
+
+    footer{
+        flex-direction: column-reverse !important;
+        margin-left: 0px !important;
+        gap: 24px !important;
+     }
+     .social-media{
+        width: 50% !important;
+        margin: auto !important;
+        text-align: center !important;
+        height: auto !important;
+     }
+     .social-media ul{
+        justify-content: center !important;
+     }
+     .footer-nav{
+        display: block !important;
+        width: 95% !important;
+        height: auto !important;
+     } 
+     .productService{
+        /* width: 100% !important; */
+        padding-left: 20px !important;
+        gap: 60px !important;
+        
+        
+        
+     } 
+     .productService-last-row{
+        padding-right: 0px !important;
+        padding-right: 20px !important;
+     }
+     .companyMore {
+        width: 100% !important;
+       
+     }
+     .companyMore-last-row li{
+     padding-right: 20px !important;
+     }
+     .companyMore{
+        padding-left: 20px !important;
+       
+     }
+
+   
+
+}
+
+
+/* header-------- */

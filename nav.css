@@ -1,0 +1,58 @@
+.logo-menubar{
+  padding: 18px 53px;
+ 
+}
+
+.mobile-container {
+    max-width: 480px;
+    margin: auto;
+    height: 500px;
+    color: white;
+    border-radius: 10px;
+  }
+
+  
+  .topnav {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  .topnav #myLinks a{
+    font-size: 16px;
+    font-weight: 600;
+    color: #183B56;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 21px;
+  }
+  
+  .topnav a {
+    color: #3A4C66;
+    padding: 18px 53px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  
+  .active {
+    color: white;
+  }
+
+
+ 
+ 
+  .card{    
+      clip-path: polygon(0% 0%, 100% 0%, 100% 120%, 0% 120%);
+      box-shadow: 0 0 8px -2px #152548; 
+  }
