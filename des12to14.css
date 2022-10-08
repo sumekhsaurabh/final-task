@@ -24,6 +24,9 @@
         gap: 51px;
     }
 
+
+    /* our-feature--- */
+
     .controlOver {
         padding-right: 51px;
         gap: 136px;
@@ -32,6 +35,9 @@
     .paymentMade {
         padding-right: 50px;
         gap: 75px;
+    }
+    .paymentStatus ul li img{
+        width: 21%;
     }
 
     .ourBlog-card-3-read {
