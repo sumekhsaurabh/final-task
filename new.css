@@ -279,7 +279,9 @@ button span {
     letter-spacing: 0.2px;
     font-family: 'Open Sans', sans-serif;
     margin-top: 0px;
-    padding: 0px 24px;
+    /* padding: 0px 24px; */
+    width: 60%;
+    margin: auto;
 }
 
 /* housting-- */
@@ -290,7 +292,7 @@ button span {
 }
 
 .housting-right {
-    margin-top: 89px;
+    margin-top: 80px;
 }
 
 .numberCircle {
@@ -322,7 +324,7 @@ button span {
     margin-left: 24px;
     margin-top: 0px;
     line-height: 32px;
-    padding-right: 40px;
+    padding-right: 100px;
 }
 
 .housting-learnMore-Btn {
@@ -550,6 +552,11 @@ button span {
     font-family: 'Open Sans', sans-serif;
     /* margin-bottom: 32px; */
 }
+.lifestyle-date{
+    font-size: 16px;
+    line-height: 21.79px;
+    color: #B3BAC5;
+}
 
 .card-1-title {
     font-size: 24px;
@@ -733,8 +740,8 @@ button span {
 
 
 /* ready to earn-- */
-
-.radyToEarn-container {
+.readyToEarn-m-t
+{
     margin-top: 144px;
 }
 
@@ -746,6 +753,7 @@ button span {
     margin-bottom: 128px;
     padding-left: 95px;
     border-radius: 16px;
+    /* margin-top: 80px !important; */
 
 
 }
@@ -772,6 +780,7 @@ button span {
     font-family: 'Open Sans', sans-serif;
     line-height: 36px;
     margin-bottom: 20px;
+    width: 50%;
 
 }
 

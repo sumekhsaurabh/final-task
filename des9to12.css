@@ -1,4 +1,3 @@
-
 @media (min-width: 992px)and (max-width: 1200px) {
 
     .container {
@@ -11,11 +10,30 @@
         padding: 0px 66px 0px 66px;
     }
 
+    /* ready to earn-- */
+    .Earn-container {
+        width: 960px;
+        margin: 0px auto;
+    }
+
+    .Earn-container-inner {
+        width: 960px;
+    }
+
+    /* housting container */
+    .housting-container{
+        /* width: 100%;  */
+        width: 960px;
+        /* background-color: red; */
+        /* margin: 0px; */
+        margin: 0px auto;
+    }
+
     .nav_list ul {
         gap: 35px;
     }
-   
-   
+
+
 
     .card {
         top: 446px;
@@ -24,6 +42,7 @@
 
 
     }
+
     /* header */
 
     .header {
@@ -53,15 +72,18 @@
     .header-inner-btn {
         margin-bottom: 55px;
     }
-    .section-line{
+
+    .section-line {
         margin-top: 100px;
         margin-bottom: 100px;
     }
+
     /* get paid quik */
-    .Lets-rent{
+    .Lets-rent {
         gap: 20px;
     }
-    .putYour-screenguist{
+
+    .putYour-screenguist {
         gap: 20px;
     }
 
@@ -84,12 +106,17 @@
     }
 
     .housting-right {
-        margin-top: 51px;
+        margin-top: 55px;
     }
 
     .houstin-right-para {
-        margin-bottom: 15px;
+        margin-bottom: 25px;
         line-height: 30px;
+        padding-right: 20px;
+       
+    }
+    .houstin-right-title{
+        padding-right: 20px;
     }
 
     .housting-lower {
@@ -103,16 +130,17 @@
     .housting-lower-right {
         width: 185%;
     }
-    
-      #housting-lower-desk-img{
-       width: 100%;
-      }
-      .housting-lower{
-        margin-bottom: 140px;
-      }
 
-   
-    .feature-section{
+    #housting-lower-desk-img {
+        width: 100%;
+    }
+
+    .housting-lower {
+        margin-bottom: 140px;
+    }
+
+
+    .feature-section {
         padding-top: 140px !important;
     }
 
@@ -130,11 +158,13 @@
     .paymentMade-right {
         padding-top: 41px;
     }
+
     .paymentStatus ul li {
         font-size: 13px;
     }
+
     .paymentStatus ul li img {
-        width: 30%;
+        width: 26%;
     }
 
     .paymentMade {
@@ -143,7 +173,7 @@
     }
 
     /* our-blogs--- */
-    .ourblogs{
+    .ourblogs {
         margin-top: 100px;
     }
 
@@ -172,24 +202,32 @@
         padding-left: 45px;
         margin-bottom: 75px;
     }
-    .radyToEarn-container{
+
+    .readyToEarn-m-t {
         margin-top: 100px;
+
+        /* hello-- */
     }
+
     /* footer-- */
-    .footer{
+    .footer {
         grid-area: 45px;
     }
-    .productService{
+
+    .productService {
         gap: 45px;
     }
-    .companyMore-last-row li{
+
+    .companyMore-last-row li {
         padding-right: 10px;
     }
-    .companyMore{
+
+    .companyMore {
         gap: 45px;
-    } 
-    .footer-nav{
-       gap: 45px;
+    }
+
+    .footer-nav {
+        gap: 45px;
     }
 
 

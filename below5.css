@@ -8,8 +8,26 @@
         width: 100%;
     }
 
+    /* for ready to earn-- */
+
+    .Earn-container{
+        width: 100%; 
+        margin: 0px auto;
+        /* margin-top: 80px; */
+    }
+    .Earn-container-inner{
+        width: 100%;
+    }
+
+    /* housting container-- */
+    .housting-container{
+        width: 100%; 
+        /* background-color: red; */
+        /* margin: 0px auto; */
+    }
+
     .container-inner {
-        width: 720px;
+        /* width: 720px; */
     }
 
     /* top nav-- */
@@ -59,7 +77,7 @@
     .header-descrip {
         font-size: 20px;
         line-height: 28px;
-        margin-bottom: 16px;
+        margin-bottom: 20px;
         padding-left: 0px;
         display: -webkit-box;
         max-width: 400px;
@@ -67,6 +85,7 @@
         -webkit-box-orient: vertical;
         overflow: hidden;
         text-overflow: ellipsis;
+        padding-right: 77px;
     }
 
     .header-inner-btn {
@@ -150,6 +169,7 @@
     .section-summary {
         font-size: 16px;
         line-height: 28px;
+        width: 100%;
     }
 
     #section-btn {
@@ -450,6 +470,7 @@
     /* ready to earn-- */
     .readyToEarn {
         background-image: url("./assets/tree-tab.png");
+        border-radius: 0px;
     }
     .readyToEarn-heading {
         margin-top: 64px;
@@ -462,9 +483,11 @@
         line-height: 28px;
         margin-top: 16px;
         margin-bottom: 24px;
+        width: 100%;
+        padding-right: 24px;
     }
 
-    .radyToEarn-container {
+    .readyToEarn-m-t {
         margin-top: 79px;
     }
 
@@ -520,7 +543,8 @@
 
     .companyMore {
         justify-content: center;
-        gap: 51px;
+        gap: 81px;
+        margin-top: 25px;
 
     }
 
@@ -533,7 +557,7 @@
     }
 
     .companyMore {
-        padding-left: 20px;
+        /* padding-left: 20px; */
     }
 
 

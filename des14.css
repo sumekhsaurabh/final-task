@@ -6,6 +6,22 @@
     .container-inner {
         width: 1140px;
     }
- 
+
+    /* for ready  to rean-- */
+    .housting-container{
+        width: 1320px; 
+        margin: 0px auto;
+    }
+    .Earn-container-inner{
+        width: 1140px;
+    }
+    
+    /* for housting container */
+
+    .housting-container{
+        width: 1400px; 
+        margin: 0px;
+    }
   
+
 }

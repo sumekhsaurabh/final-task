@@ -8,26 +8,48 @@
         width: 540px;
     }
 
+    /* for ready to earn-- */
+    .Earn-container {
+        width: 100%;
+        /* margin: 0px auto; */
+        /* margin-top: 80px; */
+    }
+
+    .Earn-container-inner {
+        width: 100%;
+    }
+    /* housting container-- */
+
+    .housting-container{
+        width: 540px; 
+        /* background-color: red; */
+        margin: 0px auto;
+    }
+
+
     .container-inner {
         width: 720px;
     }
-    .tab-mob-version{
-        display: block ;
-    
+
+    .tab-mob-version {
+        display: block;
+
     }
+
     .desktop-version {
         display: none;
-    
+
     }
-    .topnav a{
+
+    .topnav a {
         padding: 23px 18px;
     }
-    
+
 
 
 
     /* header--- */
-     .header {
+    .header {
         height: 460px;
         margin-bottom: 422px;
     }
@@ -67,19 +89,21 @@
     .card {
         right: 40px;
         top: 367px;
-    } 
+    }
 
     /* get paid quickly--- */
 
-    
+
     .section-tittle {
         margin-top: 24px;
         font-size: 28px;
         line-height: 36px;
     }
-    .section-summary{
+
+    .section-summary {
         font-size: 16px;
         line-height: 28px;
+        width: 100%;
     }
 
     #section-btn {
@@ -107,6 +131,7 @@
         margin-top: 26px;
         font-size: 28px;
     }
+
     .putYour-screenguist-title {
         font-size: 20px;
         line-height: 24px;
@@ -201,7 +226,8 @@
         letter-spacing: 1px;
         margin-top: 30px;
     }
-    .housting-lower-title{
+
+    .housting-lower-title {
         font-size: 16px;
         line-height: 21.79px;
     }
@@ -282,10 +308,12 @@
     .watchMore {
         justify-content: center;
     }
-    .paymentStatus ul li span{
+
+    .paymentStatus ul li span {
         font-size: 14px;
     }
-    .payment-section-line{
+
+    .payment-section-line {
         margin: 74px 0px 64px 0px;
     }
 
@@ -301,13 +329,21 @@
         margin-top: 80px;
     }
 
+
+    /* here */
+
+    .lifestyle{
+        font-size: 14px;
+        line-height: 20px;
+    }
+
     /* host worl wide-- */
     .hostWorldwide-inner {
         display: block;
         margin-top: 0px;
     }
 
-  
+
 
     .hostAvarage {
         display: block;
@@ -330,18 +366,20 @@
     }
 
     /* ready to earn-- */
-    .readyToEarn-heading{
+    .readyToEarn-heading {
         margin-top: 64px;
         font-size: 28px;
         line-height: 36px;
     }
-    .readyToEarn-title{
+
+    .readyToEarn-title {
         font-size: 16px;
         line-height: 28px;
         margin-top: 16px;
         margin-bottom: 24px;
     }
-    .radyToEarn-container{
+
+    .readyToEarn-m-t {
         margin-top: 79px;
     }
 
@@ -350,59 +388,71 @@
         padding-right: 24px;
         margin-bottom: 48px;
         background-image: url("./assets/tree-tab.png");
+        border-radius: 0px;
     }
-    .readyToEarn-btn{
+
+    .readyToEarn-btn {
         margin-bottom: 64px;
 
     }
 
     /* footer-- */
 
-    footer{
-       
+    footer {
+
         flex-direction: column-reverse;
         margin-left: 0px;
         gap: 24px;
-     }
-     .social-media{
+    }
+
+    .social-media {
         width: 50%;
         margin: auto;
         text-align: center;
         height: auto;
-     }
-     .social-media ul{
+    }
+
+    .social-media ul {
         justify-content: center;
-     }
-     .footer-nav{
+    }
+
+    .footer-nav {
         display: block;
         /* width: 95%; */
         height: auto;
-     } 
-     .productService{
+    }
+
+    .productService {
         /* width: 100%; */
         padding-left: 20px;
         justify-content: center;
         gap: 140px;
-        
-        
-     } 
-     .productService-last-row{
+
+
+    }
+
+    .productService-last-row {
         padding-right: 0px;
         padding-right: 20px;
-     }
-     .companyMore {
+    }
+
+    .companyMore {
         /* width: 100%; */
         justify-content: center;
-        gap: 160px;
-       
-     }
-     .footer-nav ul li{
+        gap: 168px;
+        margin-top: 25px;
+
+    }
+
+    .footer-nav ul li {
         padding-bottom: 15px;
-     }
-     .companyMore-last-row li{
-     padding-right: 20px;
-     }
-     .companyMore{
-        padding-left: 20px;
-     }
+    }
+
+    .companyMore-last-row li {
+        padding-right: 20px;
+    }
+
+    .companyMore {
+        /* padding-left: 20px; */
+    }
 }

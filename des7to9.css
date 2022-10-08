@@ -1,306 +1,347 @@
 @media (min-width: 768px)and (max-width: 992px) {
     .container {
-       width: 720px;
+        width: 720px;
 
-   }
+    }
 
-   .container-inner {
-       width: 720px;
-   }
-   .tab-mob-version{
-       display: block;
-   
-   }
-   .desktop-version {
-       display: none;
-   
-   }
-   
+    .container-inner {
+        width: 720px;
+    }
 
-   .header {
-       background-image: url("./assets/tab-header.png");
-       height: 587px;
-       margin-bottom: 406px;
-   }
+    /* for ready to earn-- */
+    .Earn-container {
+        width: 100%;
+        margin: 0px auto;
+        /* margin-top: 80px; */
+    }
 
-   .header-content {
-       width: auto;
-   }
+    .Earn-container-inner {
+        width: 100%;
+    }
+    /* housting container */
 
-   .header-inner {
-       padding-top: 86px;
-       text-align: center;
-   }
+    .housting-container{
+        width: 720px; 
+        /* background-color: red; */
+        margin: 0px auto;
+    }
 
-   .header-descrip {
-       margin-bottom: 24px;
-       margin-top: 8px;
-       padding: 0px 39px 0px 39px;
-       
 
-   }
 
-   .header-inner-btn {
-       margin-bottom: 78px;
-   }
 
-   .header-icons {
-       justify-content: center;
-   }
 
-   .header-inner-btn {
-       /* margin-bottom: 81px; */
-   } 
 
-   /* card-- */
-   .card {
-       top: 468px;
-       right: 132px;
-       text-align: left;
-   } 
+    .tab-mob-version {
+        display: block;
 
-   /* get-paid quikly-- */
+    }
+
+    .desktop-version {
+        display: none;
+
+    }
+
+
+    .header {
+        background-image: url("./assets/tab-header.png");
+        height: 587px;
+        margin-bottom: 406px;
+    }
+
+    .header-content {
+        width: auto;
+    }
+
+    .header-inner {
+        padding-top: 86px;
+        text-align: center;
+    }
+
+    .header-descrip {
+        margin-bottom: 24px;
+        margin-top: 8px;
+        padding: 0px 39px 0px 39px;
+
+
+    }
+
+    .header-inner-btn {
+        margin-bottom: 78px;
+    }
+
+    .header-icons {
+        justify-content: center;
+    }
+
+    .header-inner-btn {
+        /* margin-bottom: 81px; */
+    }
+
+    /* card-- */
+    .card {
+        top: 468px;
+        right: 132px;
+        text-align: left;
+    }
+
+    /* get-paid quikly-- */
     #section-btn {
-       display: block;
-       margin: 0px auto 16px auto;
-   }
+        display: block;
+        margin: 0px auto 16px auto;
+    }
 
-   .Lets-rent {
-       display: block;
-   }
+    .Lets-rent {
+        display: block;
+    }
 
-   .Lets-rent-title {
-       text-align: center;
-       margin-bottom: 56px;
-       font-size: 32px;
-   }
+    .Lets-rent-title {
+        text-align: center;
+        margin-bottom: 56px;
+        font-size: 32px;
+    }
 
-   .putYour-screenguist-inner {
-       display: block;
-   }
+    .putYour-screenguist-inner {
+        display: block;
+    }
 
-   .putYour-screenguist-icon {
-       text-align: center;
-       margin-bottom: 9px;
-   }
+    .putYour-screenguist-icon {
+        text-align: center;
+        margin-bottom: 9px;
+    }
 
-   .putYour-screenguist-content {
-       text-align: center;
-       margin-left: 0px;
-   }
+    .putYour-screenguist-content {
+        text-align: center;
+        margin-left: 0px;
+    }
 
-   .section-line {
-       margin-top: 64px;
-       margin-bottom: 80px;
-       
-   }
-   .section-tittle{
-    font-size: 32px;
-    line-height: 40px;
-   }
+    .section-line {
+        margin-top: 64px;
+        margin-bottom: 80px;
 
-   /* housting-- */
+    }
+    .section-summary{
+        width: 80%;
+    }
+
+    .section-tittle {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    /* housting-- */
     .housting-content {
-       display: block;
-       margin-top: 56px;
-   }
+        display: block;
+        margin-top: 56px;
+    }
 
-   .tellUs {
-       display: block;
-   }
+    .tellUs {
+        display: block;
+    }
 
-   .numberCircle {
-       margin: auto;
-   }
+    .numberCircle {
+        margin: auto;
+    }
 
-   .housting-right {
-       margin-top: 48px;
-   }
+    .housting-right {
+        margin-top: 48px;
+    }
 
-   .houstin-right-title {
-       text-align: center;
-       margin-left: 0px;
-       padding-right: 0px;
-       margin-top: 16px;
-       margin-bottom: 8px;
-   }
+    .houstin-right-title {
+        text-align: center;
+        margin-left: 0px;
+        padding-right: 0px;
+        margin-top: 16px;
+        margin-bottom: 8px;
+    }
 
-   .houstin-right-para {
-       text-align: center;
-       margin-left: 0px;
-       padding: 0px 70px;
-       margin-bottom: 40px;
-       
-   }
+    .houstin-right-para {
+        text-align: center;
+        margin-left: 0px;
+        padding: 0px 70px;
+        margin-bottom: 40px;
 
-   .housting-learnMore-Btn {
-       display: block;
-       margin: auto;
-   } 
+    }
 
-   /* housting-lower-- */
+    .housting-learnMore-Btn {
+        display: block;
+        margin: auto;
+    }
+
+    /* housting-lower-- */
     .housting-lower {
-       display: block;
-       margin-top: 112px;
-       padding-left: 0px;
-       margin-bottom: 120px;
-   }
+        display: block;
+        margin-top: 112px;
+        padding-left: 0px;
+        margin-bottom: 120px;
+    }
 
-   .housting-lower-left {
-       padding-top: 0px;
-       text-align: center;
-       margin-bottom: 63px;
-       padding-right: 0px;
-   }
+    .housting-lower-left {
+        padding-top: 0px;
+        text-align: center;
+        margin-bottom: 63px;
+        padding-right: 0px;
+    }
 
-   .housting-lower-para {
-       padding: 0px 64px;
-   }
+    .housting-lower-para {
+        padding: 0px 64px;
+    }
 
-   .housting-lower-right {
-       
-       display: flex;
-       justify-content: center;
-   }
+    .housting-lower-right {
 
-   #housting-lower-desk-img {
-       display: none;
-   }
+        display: flex;
+        justify-content: center;
+    }
 
-   #housting-lower-tab-img {
-       display: block;
-   } 
+    #housting-lower-desk-img {
+        display: none;
+    }
+
+    #housting-lower-tab-img {
+        display: block;
+    }
 
 
-   /* our feature--- */
+    /* our feature--- */
 
     .feature-section {
-       /* margin-top: 80px; */
-       padding-top: 80px;
-   }
+        /* margin-top: 80px; */
+        padding-top: 80px;
+    }
 
-   #rental-tab-img {
-       display: block;
-   }
+    #rental-tab-img {
+        display: block;
+    }
 
-   #rental-desktp-img {
-       display: none;
-   }
+    #rental-desktp-img {
+        display: none;
+    }
 
-   #payment-tab-img {
-       display: block;
-   }
+    #payment-tab-img {
+        display: block;
+    }
 
-   #payment-desktp-img {
-       display: none;
-   }
+    #payment-desktp-img {
+        display: none;
+    }
 
-   .reantal-property {
-       padding-left: 30px;
-       padding-top: 23px;
-   }
+    .reantal-property {
+        padding-left: 30px;
+        padding-top: 23px;
+    }
 
-   .rentalProperty-right {
-       padding-right: 0px;
-   }
+    .rentalProperty-right {
+        padding-right: 0px;
+    }
 
-   .controlOver {
-       gap: 38px;
-       margin-top: 64px;
-       margin-bottom: 64px;
-   }
+    .controlOver {
+        gap: 38px;
+        margin-top: 64px;
+        margin-bottom: 64px;
+    }
 
-   .paymentMade {
-       padding-right: 0px;
-       padding-left: 0px;
-       gap: 38px;
-   }
+    .paymentMade {
+        padding-right: 0px;
+        padding-left: 0px;
+        gap: 38px;
+    }
 
-   .paymentStatus ul li img {
-       width: 27%;
-   } 
-   .payment-section-line{
-    margin-top: 107px;
-    margin-bottom: 90px;
-   }
+    .paymentStatus ul li img {
+        width: 21%;
+    }
+
+    .payment-section-line {
+        margin-top: 107px;
+        margin-bottom: 90px;
+    }
 
 
-   /* my-blogs--- */
+    /* my-blogs--- */
     .ourBlog-cards {
-       margin-top: 52px;
-       gap: 24px;
-   }
+        margin-top: 52px;
+        gap: 24px;
+    }
 
-   .ourBlog-card-3 {
-       display: none;
-   }
+    .ourBlog-card-3 {
+        display: none;
+    }
 
-   .ourblogs {
-       margin-top: 124px;
-   } 
-   .cards{
-    height: 510px;
-    width: 340px;
-   }
+    .ourblogs {
+        margin-top: 124px;
+    }
+    .card-1-title{
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .ourBlog-card-2-title{
+        font-size: 22px;
+        line-height: 32px;
+    }
 
-   /* host-world-wide-- */
+    .cards {
+        height: 510px;
+        width: 340px;
+    }
+
+    /* host-world-wide-- */
 
 
     .hostWorldwide-inner {
-       display: block;
-   }
+        display: block;
+    }
 
-   .hostAvarage {
-       margin-bottom: 65px;
-   } 
+    .hostAvarage {
+        margin-bottom: 65px;
+    }
 
-   /* ready-to-earn--- */
+    /* ready-to-earn--- */
 
-    .radyToEarn-container {
-       margin-top: 80px;
-   }
+    .readyToEarn-m-t {
+        margin-top: 80px;
+    }
 
-   .readyToEarn {
-       padding-left: 48px;
-       background-image: url("./assets/tree-tab.png");
-       margin-bottom: 64px;
-   }
+    .readyToEarn {
+        padding-left: 48px;
+        background-image: url("./assets/tree-tab.png");
+        margin-bottom: 64px;
+        border-radius: 0px;
+    }
 
-   .readyToEarn-heading {
-       margin-top: 89px;
-       font-size: 36px;
-       margin-bottom: 7px;
-   } 
+    .readyToEarn-heading {
+        margin-top: 89px;
+        font-size: 36px;
+        margin-bottom: 7px;
+    }
+
     /* footer--- */
 
-   footer {
-       margin-left: 50px;
-   }
+    footer {
+        margin-left: 50px;
+    }
 
-   .footer-nav {
-       display: block;
-   }
+    .footer-nav {
+        display: block;
+    }
 
-   .social-media {
-       width: auto;
-   }
+    .social-media {
+        width: auto;
+    }
 
-   .productService {
-       width: auto;
-   }
+    .productService {
+        width: auto;
+    }
 
-   .companyMore {
-       width: auto;
-       padding-top: 24px;
-   }
+    .companyMore {
+        width: auto;
+        /* padding-top: 24px; */
+    }
 
-   .productService-last-row {
-       padding-right: 15px;
-   }
+    .productService-last-row {
+        padding-right: 15px;
+    }
 
-   .companyMore-last-row li {
-       padding-right: 15px;
-   }
+    .companyMore-last-row li {
+        padding-right: 15px;
+    }
 
 
 }
