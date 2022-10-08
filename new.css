@@ -150,7 +150,9 @@ button span {
     /* margin-top: 0px; */
     line-height: 36px;
     /* padding-right: 10px; */
-    padding: 0px 10px 32px 10px;
+    padding-right: 10px;
+    /* padding: 0px 10px 0px 0px; */
+    margin-bottom: 32px;
 }
 
 .header-inner-btn {
@@ -163,7 +165,7 @@ button span {
     font-size: 18px;
     font-weight: 700;
     font-family: 'Open Sans', sans-serif;
-    margin-bottom: 101px;
+    margin-bottom: 122px;
     text-align: left;
     padding-left: 26px;
 
@@ -189,9 +191,10 @@ button span {
     color: #36B37E;
     width: 158px;
     height: 32px;
+    font-size: 14px;
     border-style: none;
     border-radius: 20px;
-    margin-bottom: 16px;
+    margin-bottom: 22px;
     font-weight: 600;
     font-family: 'Open Sans', sans-serif;
 
@@ -209,14 +212,14 @@ button span {
 .Lets-rent-title {
     font-size: 36px;
     font-weight: 700;
+    line-height: 48px;
     letter-spacing: 0.2px;
     line-height: 36px;
     color: #183B56;
     font-family: HK Grotesk;
-    /* margin-top: 0px;
-    margin-bottom: 0px; */
     margin: 0px;
-    padding: 0px 10px;
+    /* padding: 0px 10px; */
+    padding: 0px 10px 0px 0px;
 }
 
 .putYour-screenguist-content {
@@ -265,6 +268,7 @@ button span {
     margin-bottom: 16px;
     margin-top: 0px;
     padding: 0px 10px;
+    line-height: 48px;
 }
 
 .section-summary {
@@ -306,6 +310,7 @@ button span {
     margin-top: 8px;
     margin-bottom: 8px;
     padding-right: 40px;
+    line-height: 32px;
 }
 
 .houstin-right-para {
@@ -313,7 +318,7 @@ button span {
     font-size: 18px;
     font-weight: 400;
     font-family: 'Open Sans', sans-serif;
-    margin-bottom: 50px;
+    margin-bottom: 48px;
     margin-left: 24px;
     margin-top: 0px;
     line-height: 32px;
@@ -340,7 +345,7 @@ button span {
 .housting-lower {
     margin-top: 94px;
     padding-left: 32px;
-    gap: 80px;
+    gap: 78px;
     margin-bottom: 200px;
 }
 
@@ -378,7 +383,7 @@ button span {
 /* our-feature-- */
 .feature-section {
     /* margin-top: 144px; */
-    padding-top: 144px;
+    padding-top: 140px;
     /* background-image: url("./assets/backg.png"); */
     background: linear-gradient(#F8FBFF, #FFFFFF);
     border-radius: 8px;
@@ -505,6 +510,7 @@ button span {
     font-family: 'Open Sans', sans-serif;
     color: #183B56;
     margin-bottom: 26px;
+    letter-spacing: 0.2px;
 }
 
 .paymentStatus ul li span {
@@ -864,6 +870,17 @@ footer ul {
     color: #5A7184;
     padding-bottom: 24px;
 }
+.copyright p{
+    margin-top: 24px;
+    font-size: 16px;
+    line-height: 21.71px;
+    color: #5A7184;
+    font-family: 'Open Sans', sans-serif;
+}
+.copyright img{
+    display: block;
+    margin: auto;
+}
 
 
 
@@ -891,6 +908,7 @@ footer ul {
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 24px;
     margin-top: 0px;
+    line-height: 21.79px;
 
 
 
@@ -904,6 +922,7 @@ footer ul {
     font-family: HK Grotesk;
     margin-top: 0px;
     margin-bottom: 8px;
+    line-height: 32px;
 }
 
 .card input {
@@ -916,8 +935,17 @@ footer ul {
     border: 2px solid #C3CAD9;
     border-radius: 8px;
     margin-bottom: 16px;
-    padding-left: 32px;
+    padding-left: 48px;
+    line-height: 21.79px;
 
+}
+.input-container {
+    position: relative;
+}
+.input-container i{
+    position: absolute;
+    top: 14px;
+    left: 21px;
 }
 
 .card-tbns {
@@ -972,9 +1000,11 @@ footer ul {
 .Monthly-potential {
     margin-top: 0px;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     color: #5A7184;
     font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 21.79px;
 }
 
 .card-amount {
