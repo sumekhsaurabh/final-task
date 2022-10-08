@@ -279,7 +279,7 @@ button span {
     letter-spacing: 0.2px;
     font-family: 'Open Sans', sans-serif;
     margin-top: 0px;
-    padding: 0px 10px;
+    padding: 0px 24px;
 }
 
 /* housting-- */
@@ -369,10 +369,12 @@ button span {
 .housting-lower-title {
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
-    list-style: 24.51px;
+    line-height: 24.51px;
     font-weight: 400;
     color: #5A7184;
     margin-top: 0px;
+    padding-left: 24px;
+    padding-right: 24px;
 
 }
 
@@ -517,6 +519,7 @@ button span {
     padding-left: 10px;
     padding-top: 5px;
     padding-right: 10px;
+    line-height: 20px;
 }
 
 /* our blogs-- */

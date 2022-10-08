@@ -29,7 +29,7 @@
     /* header--- */
      .header {
         height: 460px;
-        margin-bottom: 400px;
+        margin-bottom: 422px;
     }
 
     .header-inner {
@@ -53,7 +53,7 @@
     .header-descrip {
         font-size: 20px;
         line-height: 28px;
-        padding-bottom: 16px;
+        padding-bottom: 5px;
     }
 
     .header-inner-btn {
@@ -70,8 +70,16 @@
     } 
 
     /* get paid quickly--- */
+
+    
     .section-tittle {
         margin-top: 24px;
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .section-summary{
+        font-size: 16px;
+        line-height: 28px;
     }
 
     #section-btn {
@@ -93,10 +101,16 @@
     }
 
     .Lets-rent-title {
-        padding: 0px 20px;
+        padding: 0px 24spx;
         text-align: center;
         margin-bottom: 40px;
         margin-top: 26px;
+        font-size: 28px;
+    }
+    .putYour-screenguist-title {
+        font-size: 20px;
+        line-height: 24px;
+        margin-top: 0px;
     }
 
     .putYour-screenguist-icon {
@@ -106,7 +120,7 @@
     .putYour-screenguist-descri {
         font-size: 16px;
         line-height: 28px;
-        padding: 0 30px;
+        padding: 0 24px;
         margin-bottom: 40px;
     }
 
@@ -132,6 +146,7 @@
 
     .houstin-right-para {
         padding-right: 0px;
+        padding-left: 24px;
         margin-left: 0px;
         margin-bottom: 40px;
         font-size: 16px;
@@ -179,12 +194,16 @@
     }
 
     .housting-lower-para {
-        padding: 0px 25px;
+        padding: 0px 24px;
         margin-bottom: 24px;
         font-size: 28px;
         line-height: 44px;
         letter-spacing: 1px;
-        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    .housting-lower-title{
+        font-size: 16px;
+        line-height: 21.79px;
     }
 
     .housting-lower-right {
@@ -205,8 +224,10 @@
     }
 
     .rental-payment-title {
-        padding: 0px 20px;
-        margin-bottom: 20px;
+        padding: 0px 24px;
+        margin-bottom: 28px;
+        font-size: 24px;
+        line-height: 32px;
     }
 
     .rentalProperty-right {
@@ -261,6 +282,9 @@
     .watchMore {
         justify-content: center;
     }
+    .paymentStatus ul li span{
+        font-size: 14px;
+    }
     .payment-section-line{
         margin: 74px 0px 64px 0px;
     }
@@ -306,13 +330,25 @@
     }
 
     /* ready to earn-- */
+    .readyToEarn-heading{
+        margin-top: 64px;
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .readyToEarn-title{
+        font-size: 16px;
+        line-height: 28px;
+        margin-top: 16px;
+        margin-bottom: 24px;
+    }
     .radyToEarn-container{
         margin-top: 79px;
     }
 
     .readyToEarn {
-        padding-left: 40px;
-        margin-bottom: 61px;
+        padding-left: 24px;
+        padding-right: 24px;
+        margin-bottom: 48px;
         background-image: url("./assets/tree-tab.png");
     }
     .readyToEarn-btn{
@@ -359,6 +395,9 @@
         justify-content: center;
         gap: 160px;
        
+     }
+     .footer-nav ul li{
+        padding-bottom: 15px;
      }
      .companyMore-last-row li{
      padding-right: 20px;
