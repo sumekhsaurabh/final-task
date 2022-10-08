@@ -601,8 +601,7 @@ button span {
 }
 
 .ourBlog-card-1 {
-    clip-path: polygon(0% 0%, 100% 0%, 100% 120%, 0% 120%);
-    box-shadow: 0 0 8px -2px #152548;
+    box-shadow: 0 -6px 0 #fff, 0 1px 6px rgba(0,0,0, .35);
 }
 
 .ourBlog-card-2 {

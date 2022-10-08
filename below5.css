@@ -11,19 +11,26 @@
     .container-inner {
         width: 720px;
     }
-    .tab-mob-version{
+
+    /* top nav-- */
+
+    .tab-mob-version {
         display: block;
-    
+
     }
+
     .desktop-version {
         display: none;
-    
-    } 
-    .topnav a{
-        padding: 23px 18px;
+
     }
-      /* header--- */
-      .header {
+
+    .topnav a {
+        padding: 15px 18px;
+    }
+
+    /* header--- */
+
+    .header {
         height: 481px;
         margin-bottom: 400px;
         background-image: url("./assets/mobile-header.png");
@@ -52,8 +59,14 @@
     .header-descrip {
         font-size: 20px;
         line-height: 28px;
-        padding-bottom: 16px;
+        margin-bottom: 16px;
         padding-left: 0px;
+        display: -webkit-box;
+        max-width: 400px;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
     .header-inner-btn {
@@ -65,378 +78,76 @@
         display: none;
     }
 
+    /* card-- */
+
     .card {
         /* left: 24px;
         top: 367px; */
 
-
-       
         /* top: 367px; */
         top: 127%;
         left: 50%;
         margin-right: -50%;
-        transform: translate(-50%, -50%) 
-    } 
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /* get paid quickly--- */
-    .section-tittle {
-        /* margin-top: 16px; */
+        transform: translate(-50%, -50%)
     }
 
-    #section-btn {
-        /* display: block;
-        margin: auto; */
-    }
-
-    .Lets-rent {
-        /* display: block; */
-    }
-
-    .putYour-screenguist {
-        /* display: block; */
-    }
-
-    .putYour-screenguist-inner {
-        /* display: block;
-        text-align: center; */
-    }
-
-    .Lets-rent-title {
-        /* padding: 0px 20px;
-        text-align: center;
-        margin-bottom: 40px;
-        margin-top: 23px; */
-    }
-
-    .putYour-screenguist-icon {
-        /* margin-bottom: 23px; */
-    }
-
-    .putYour-screenguist-descri {
-        /* font-size: 16px;
-        line-height: 28px;
-        padding: 0 30px;
-        margin-bottom: 40px; */
-    }
-
-    .putYour-screenguist-content {
-        /* margin-left: 0px; */
-    }
-
-    .section-line {
-        /* margin: 55px 0px 65px 0px; */
-    }
-
-    /* housting--- */
-    .housting-content {
-        /* display: block;
-        margin-top: 24px;
-        padding-left: 40px;
-        padding-right: 40px; */
-    }
-
-    .housting-left-img img {
-        /* width: 100%; */
-    }
-
-    .houstin-right-para {
-        /* padding-right: 0px;
-        margin-left: 0px;
-        margin-bottom: 40px;
-        font-size: 16px;
-        line-height: 28px; */
-    }
-
-    .houstin-right-title {
-        /* margin: 23px 0px 7px 0px;
-        padding-right: 0px; */
+    .card {
+        width: 304px;
+        height: 481px;
+        padding: 32px 0px 0px 24px;
 
     }
 
-    .housting-right {
-        /* margin-top: 40px; */
+    .card .earn-extra {
+        font-size: 14px;
+        letter-spacing: 0.2px;
     }
 
-    .tellUs {
-        /* display: block;
-        text-align: center; */
-    }
-
-    .numberCircle {
-        /* margin: auto; */
-    }
-
-    .housting-learnMore-Btn {
-        /* display: block;
-        margin: auto; */
-    }
-
-    /* ready to earn-- */
-
-
-    .readyToEarn {
-        background-image: url("./assets/tree-tab.png");
-        /* padding-left: 40px;
-        margin-bottom: 48px; */
-        /* margin-bottom: 64px; */
-    }
-
-    .housting-lower {
-        /* margin-top: 88px;
+    .card-tbns {
         display: block;
-        padding: 0px;
-        margin-bottom: 80px; */
+        padding-right: 24px;
     }
 
-    .housting-lower-left {
-        /* padding: 0px;
-        text-align: center; */
-
-    }
-
-    .housting-lower-para {
-        /* padding: 0px 25px;
-        margin-bottom: 24px;
-        font-size: 28px;
-        line-height: 44px;
-        letter-spacing: 1px; */
-    }
-
-    .housting-lower-right {
-        /* display: none; */
-    }
-
-    /* our feature-- */
-    .feature-section {
-        /* margin-top: 80px; */
-    }
-
-    .controlOver {
-        /* flex-direction: column-reverse;
-        gap: 0px;
-        margin-bottom: 64px;
-        margin-top: 64px; */
-
-    }
-
-    .rental-payment-title {
-        /* padding: 0px 20px; */
-    }
-
-    .rentalProperty-right {
-        /* padding-top: 0px;
-        display: block;
-        margin: auto;
-        padding-right: 0px; */
-    }
-
-    .paymentMade {
-        /* display: block;
-        padding: 0px; */
-    }
-
-    .reantal-property {
-        /* padding: 64px 0px 0px 0px;
-        text-align: center; */
-    }
-
-    .rental-payment-title-descrip {
-        /* font-size: 16px;
-        line-height: 28px;
-        padding: 0px 20px; */
-    }
-
-    .paymentMade-right {
-        /* text-align: center;
-        padding-top: 0px;
-        margin-top: 64px; */
-    }
-
-    .paymentStatus {
-        /* display: block; */
-    }
-
-    .paymentStatus ul li {
-        /* margin: auto; */
-    }
-
-    .paymentMade-left {
-        /* text-align: center; */
-    }
-
-    .watchMore {
-        /* justify-content: center; */
-    }
-    .payment-section-line{
-        /* margin: 74px 0px 64px 0px; */
-    }
-
-    /* our-blogs--- */
-    .ourBlog-cards {
-        /* flex-direction: column;
-        align-items: center;
-        gap: 32px;
-        margin-top: 27px; */
-    }
-
-    .ourblogs {
-        /* margin-top: 80px; */
-    }
-    .cards{
-        width: 330px;
-    }
-
-    /* host worl wide-- */
-    .hostWorldwide-inner {
-        /* display: block;
-        margin-top: 0px; */
-    }
-
-    .hostWorldwide-inner {
-        /* margin-top: 49px; */
-    }
-
-    .hostAvarage {
-        /* display: block; */
-    }
-
-    .newTotal {
-        /* display: block; */
-    }
-
-    .hostWorldwide-card {
-        /* margin-top: 40px; */
-    }
-
-    .hostWorldwide-counter {
-        /* font-size: 32px; */
-    }
-
-    .hostWorldwide-title {
-        /* font-size: 16px; */
-    }
-
-    .readyToEarn {
-        /* padding-left: 40px;
-        margin-bottom: 48px; */
-    }
-    .readyToEarn-btn{
-        /* margin-bottom: 64px; */
-    }
-    .radyToEarn-container{
-        /* margin-top: 79px; */
-    }
-
-    /* card-- */
-
-   .card{
-    width: 304px;
-    height: 481px;
-    padding: 32px 0px 0px 24px;
-
-   }
-   .card .earn-extra{
-    font-size: 14px;
-    letter-spacing: 0.2px;
-   }
-   .card-tbns{
-    display: block;
-    padding-right: 24px;
-   }
-   #guests-btn{
-    width: 100%;
-    margin-left: 0px;
-    padding-right: 32px;
-   }
-   .card input{
-    width: 91%;
-    padding-right: 32px;
-   }
-   #getStat{
-    width: 91%;
-   }
-   #place-btn{
-    width: 100%;
-   }
-   .card-amount{
-    font-size: 36px;
-    line-height: 46px;
-   }
-   .card h3{
-    font-size: 20px;
-    line-height: 24px;
-    margin-bottom: 10px;
-   }
-
-
-
-
-
-    footer{
-        /* flex-direction: column-reverse;
+    #guests-btn {
+        width: 100%;
         margin-left: 0px;
-        gap: 24px; */
-     }
-     .social-media{
-        /* width: 50%;
-        margin: auto;
-        text-align: center;
-        height: auto; */
-     }
-     .social-media ul{
-        /* justify-content: center; */
-     }
-     .footer-nav{
-        /* display: block;
-        width: 95%;
-        height: auto; */
-     } 
-     .productService{
-        /* padding-left: 20px;
-        gap: 60px; */
-        
-        
-        
-     } 
-     .productService-last-row{
-        /* padding-right: 0px;
-        padding-right: 20px; */
-     }
-     .companyMore {
-        /* width: 100%; */
-       
-     }
-     .companyMore-last-row li{
-     /* padding-right: 20px; */
-     }
-     .companyMore{
-        /* padding-left: 20px; */
-       
-     }
+        padding-right: 32px;
+    }
+
+    .card input {
+        width: 91%;
+        padding-right: 32px;
+    }
+
+    #getStat {
+        width: 91%;
+    }
+
+    #place-btn {
+        width: 100%;
+    }
+
+    .card-amount {
+        font-size: 36px;
+        line-height: 46px;
+    }
+
+    .card h3 {
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+
+    /* new-- */
 
 
-
-     /* new-- */
-
-     
     .section-tittle {
         margin-top: 24px;
         font-size: 28px;
         line-height: 36px;
     }
-    .section-summary{
+
+    .section-summary {
         font-size: 16px;
         line-height: 28px;
     }
@@ -466,6 +177,7 @@
         margin-top: 26px;
         font-size: 28px;
     }
+
     .putYour-screenguist-title {
         font-size: 20px;
         line-height: 24px;
@@ -560,7 +272,8 @@
         letter-spacing: 1px;
         margin-top: 30px;
     }
-    .housting-lower-title{
+
+    .housting-lower-title {
         font-size: 16px;
         line-height: 21.79px;
     }
@@ -599,15 +312,10 @@
     .paymentMade {
         display: block;
         padding: 0px;
-        /* justify-content: center; */
     }
 
     .reantal-property {
         padding: 64px 0px 0px 0px;
-
-        /* margin-top: 64px; */
-        /* padding-top: 0px; */
-        /* padding-left: 0px; */
         text-align: center;
     }
 
@@ -629,7 +337,6 @@
     }
 
     .paymentStatus ul li {
-        /* margin: auto; */
         justify-content: center;
         margin-bottom: 20px;
     }
@@ -641,14 +348,66 @@
     .watchMore {
         justify-content: center;
     }
-    .paymentStatus ul li span{
+
+    .paymentStatus ul li span {
         font-size: 14px;
     }
-    .payment-section-line{
+
+    .payment-section-line {
         margin: 74px 0px 64px 0px;
     }
 
     /* our-blogs--- */
+    .cards{
+        width: 300px;
+        height: 440px;
+    }
+
+    /* new card-- */
+    .ourBlog-card-1-content{
+        padding-top: 26px;
+        padding-left: 26px;
+    }
+    .card-1-img{
+        top: 161px;
+    }
+    .lifestyle {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .card-1-title{
+        font-size: 20px;
+        margin-top: 16px;
+        line-height: 24px;
+    }
+    .card-1-descript{
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .read-article{
+        font-size: 16px;
+
+    }
+    button span{
+        right: 34px;
+    }
+    .ourBlog-card-2-title{
+        font-size: 21px;
+    }
+    .card-2-img{
+        left: 0px;
+        top: 264px;
+    }
+    .ourBlog-card-3-title{
+        font-size: 21px;
+    }
+    .ourBlog-card-3-read{
+        left: 61px;
+        width: 195px;
+    }
+
+
     .ourBlog-cards {
         flex-direction: column;
         align-items: center;
@@ -666,7 +425,7 @@
         margin-top: 0px;
     }
 
-  
+
 
     .hostAvarage {
         display: block;
@@ -689,18 +448,23 @@
     }
 
     /* ready to earn-- */
-    .readyToEarn-heading{
+    .readyToEarn {
+        background-image: url("./assets/tree-tab.png");
+    }
+    .readyToEarn-heading {
         margin-top: 64px;
         font-size: 28px;
         line-height: 36px;
     }
-    .readyToEarn-title{
+
+    .readyToEarn-title {
         font-size: 16px;
         line-height: 28px;
         margin-top: 16px;
         margin-bottom: 24px;
     }
-    .radyToEarn-container{
+
+    .radyToEarn-container {
         margin-top: 79px;
     }
 
@@ -710,62 +474,69 @@
         margin-bottom: 48px;
         background-image: url("./assets/tree-tab.png");
     }
-    .readyToEarn-btn{
+
+    .readyToEarn-btn {
         margin-bottom: 64px;
 
     }
 
     /* footer-- */
 
-    footer{
-       
+    footer {
+
         flex-direction: column-reverse;
         margin-left: 0px;
         gap: 24px;
-     }
-     .social-media{
+    }
+
+    .social-media {
         width: 50%;
         margin: auto;
         text-align: center;
         height: auto;
-     }
-     .social-media ul{
+    }
+
+    .social-media ul {
         justify-content: center;
-     }
-     .footer-nav{
+    }
+
+    .footer-nav {
         display: block;
-        /* width: 95%; */
         height: auto;
-     } 
-     .productService{
-        /* width: 100%; */
+    }
+
+    .productService {
         padding-left: 20px;
         justify-content: center;
         gap: 51px;
-        
-        
-     } 
-     .productService-last-row{
+
+
+    }
+
+    .productService-last-row {
         padding-right: 0px;
         padding-right: 20px;
-     }
-     .companyMore {
-        /* width: 100%; */
+    }
+
+    .companyMore {
         justify-content: center;
         gap: 51px;
-       
-     }
-     .footer-nav ul li{
+
+    }
+
+    .footer-nav ul li {
         padding-bottom: 15px;
-     }
-     .companyMore-last-row li{
-     padding-right: 20px;
-     }
-     .companyMore{
+    }
+
+    .companyMore-last-row li {
+        padding-right: 20px;
+    }
+
+    .companyMore {
         padding-left: 20px;
-     }
+    }
 
 
-   
+
 
 }

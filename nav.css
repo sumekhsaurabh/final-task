@@ -53,6 +53,10 @@
  
  
   .card{    
-      clip-path: polygon(0% 0%, 100% 0%, 100% 120%, 0% 120%);
-      box-shadow: 0 0 8px -2px #152548; 
+      /* clip-path: polygon(0% 0%, 100% 0%, 100% 120%, 0% 120%);
+      box-shadow: 0 0 8px -2px #152548;  */
+      box-shadow: 0px 15px 10px -15px #111; 
+  }
+  .ourBlog-card-1{
+    
   }
