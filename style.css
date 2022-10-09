@@ -7,13 +7,11 @@
 
 .container {
     margin: 0px auto;
-    /* background-color: #1E1E1E; */
 }
 
 
 .container-inner {
     width: 1140px;
-    /* background-color: antiquewhite; */
 }
 
 
@@ -35,16 +33,15 @@
     justify-content: space-between;
 }
 
-button {
+/* button {
     position: relative;
 }
 
 button span {
     position: absolute;
     top: 17px;
-    /* right: 11px; */
     right: 26px;
-}
+} */
 
 /* nav-- */
 .tab-mob-version {
@@ -72,8 +69,6 @@ button span {
 
 .nav_list {
     margin-bottom: 0px;
-
-
 }
 
 .nav_list ul {
@@ -106,6 +101,70 @@ button span {
     background-color: #FFFFFF;
     margin-top: -15px;
 }
+button {
+    position: relative;
+}
+
+button span {
+    position: absolute;
+    top: 17px;
+    right: 26px;
+}
+
+/* mobile nav */
+.logo-menubar{
+    padding: 18px 53px;
+   
+  }
+  
+  .mobile-container {
+      max-width: 480px;
+      margin: auto;
+      height: 500px;
+      color: white;
+      border-radius: 10px;
+    }
+  
+    
+    .topnav {
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+    }
+    
+    .topnav #myLinks {
+      display: none;
+    }
+    .topnav #myLinks a{
+      font-size: 16px;
+      font-weight: 600;
+      color: #183B56;
+      font-family: 'Open Sans', sans-serif;
+      line-height: 21px;
+    }
+    
+    .topnav a {
+      color: #3A4C66;
+      padding: 18px 53px;
+      text-decoration: none;
+      font-size: 17px;
+      display: block;
+    }
+    
+    .topnav a.icon {
+      display: block;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    
+    .active {
+      color: white;
+    }
+  
+    .card{    
+        box-shadow: 0px 15px 10px -15px #111; 
+    }
 
 
 /* header-- */
@@ -143,15 +202,10 @@ button span {
 .header-descrip {
     font-size: 20px;
     font-weight: 400;
-    /* letter-spacing: 0.2px; */
     color: #FFFFFF;
     font-family: 'Open Sans', sans-serif;
-    /* margin-bottom: 32px; */
-    /* margin-top: 0px; */
     line-height: 36px;
-    /* padding-right: 10px; */
     padding-right: 10px;
-    /* padding: 0px 10px 0px 0px; */
     margin-bottom: 32px;
 }
 
@@ -200,9 +254,9 @@ button span {
 
 }
 
+/* get paid quickly */
 .Lets-rent {
     gap: 30px;
-
 }
 
 .putYour-screenguist {
@@ -218,7 +272,6 @@ button span {
     color: #183B56;
     font-family: HK Grotesk;
     margin: 0px;
-    /* padding: 0px 10px; */
     padding: 0px 10px 0px 0px;
 }
 
@@ -244,8 +297,6 @@ button span {
     font-weight: 400;
     font-family: 'Open Sans', sans-serif;
     color: #5A7184;
-    /* margin-top: 0px;
-    margin-bottom: 0px; */
     line-height: 32px;
     margin: 0px 0px;
 
@@ -267,7 +318,7 @@ button span {
     letter-spacing: 0.2px;
     margin-bottom: 16px;
     margin-top: 0px;
-    padding: 0px 10px;
+    padding: 0px 24px;
     line-height: 48px;
 }
 
@@ -279,12 +330,10 @@ button span {
     letter-spacing: 0.2px;
     font-family: 'Open Sans', sans-serif;
     margin-top: 0px;
-    /* padding: 0px 24px; */
+    padding: 0px 24px;
     width: 60%;
     margin: auto;
 }
-
-/* housting-- */
 
 .housting-content {
     margin-top: 48px;
@@ -375,8 +424,8 @@ button span {
     font-weight: 400;
     color: #5A7184;
     margin-top: 0px;
-    padding-left: 24px;
-    padding-right: 24px;
+    /* padding-left: 24px; */
+    /* padding-right: 24px; */
 
 }
 
@@ -386,13 +435,10 @@ button span {
 
 /* our-feature-- */
 .feature-section {
-    /* margin-top: 144px; */
     padding-top: 140px;
-    /* background-image: url("./assets/backg.png"); */
     background: linear-gradient(#F8FBFF, #FFFFFF);
     border-radius: 8px;
 }
-
 
 .controlOver {
     margin-top: 126px;
@@ -420,7 +466,6 @@ button span {
 
 .rental-payment-title {
     margin-top: 0px;
-    /* padding-top: 27px; */
     color: #183B56;
     font-size: 32px;
     letter-spacing: 0.2px;
@@ -466,7 +511,6 @@ button span {
 .videoPlayer-btn {
     width: 115px;
     height: 23px;
-    /* border: 1px solid red; */
     position: relative;
     margin-top: 4px;
     text-align: left;
@@ -482,15 +526,15 @@ button span {
 
 .videoPlayer-btn i {
     position: absolute;
-    top: 0px;
+    top: 2px;
     right: 0px;
     color: #1565D8;
     font-weight: 600;
+    font-size: 20px;
 }
 
 
 .paymentMade {
-    /* padding-left: 100px; */
     gap: 150px;
     padding-right: 60px;
     padding-left: 100px;
@@ -535,7 +579,6 @@ button span {
     text-align: left;
     position: relative;
     width: 360px;
-    /* border: 1px solid red; */
     height: 520px;
     border-radius: 8px;
 }
@@ -550,7 +593,6 @@ button span {
     font-size: 16px;
     font-weight: 700;
     font-family: 'Open Sans', sans-serif;
-    /* margin-bottom: 32px; */
 }
 .lifestyle-date{
     font-size: 16px;
@@ -685,7 +727,6 @@ button span {
     padding-left: 30px;
 }
 
-
 /* host-worl-wide--- */
 .ourblogs {
     margin-top: 147px;
@@ -697,11 +738,7 @@ button span {
 }
 
 .hostWorldwide-card {
-    /* width: 20%; */
-    /* height: 200px; */
-    /* border: 2px solid blue; */
     text-align: center;
-    /* margin-bottom: 111px; */
     padding: 0px 5px;
 }
 
@@ -733,11 +770,7 @@ button span {
     color: #5A7184;
     margin-bottom: 0px;
     margin-top: 0px;
-    /* padding-left: 5px; */
-    /* padding-right: 5px; */
 }
-
-
 
 /* ready to earn-- */
 .readyToEarn-m-t
@@ -746,16 +779,12 @@ button span {
 }
 
 .readyToEarn {
-    /* height: 410px; */
     background-image: url("./assets/tree.png");
     border: 1px solid #faf9f6;
     border-color: none;
     margin-bottom: 128px;
     padding-left: 95px;
     border-radius: 16px;
-    /* margin-top: 80px !important; */
-
-
 }
 
 .readyToEarn-heading {
@@ -767,9 +796,6 @@ button span {
     margin-bottom: 0px;
     font-family: HK Grotesk;
     line-height: 48px;
-
-
-
 }
 
 .readyToEarn-title {
@@ -781,7 +807,6 @@ button span {
     line-height: 36px;
     margin-bottom: 20px;
     width: 50%;
-
 }
 
 .readyToEarn-btn {
@@ -799,18 +824,9 @@ button span {
     margin-bottom: 95px;
 }
 
-/* footer--- */
-
 /* footer---- */
 footer {
-    /* margin-left: 125px; */
     gap: 75px;
-}
-
-.social-media {
-    /* width: 25%; */
-    /* height: 400px; */
-    /* border: 2px solid red; */
 }
 
 .social-media img {
@@ -843,19 +859,14 @@ footer ul {
 }
 
 .footer-nav {
-    /* width: 70%; */
-    /* height: 400px; */
-    /* border: 2px solid blue; */
     gap: 75px;
 }
 
 .productService {
-    /* width: 42%; */
     gap: 75px;
 }
 
 .companyMore {
-    /* width: 45%; */
     gap: 75px;
 }
 
@@ -869,11 +880,6 @@ footer ul {
     font-weight: 700;
     font-family: 'Open Sans', sans-serif;
 }
-
-.companyMore:last-child {
-    /* margin-right: 50px; */
-}
-
 
 .footer-nav ul li {
     font-size: 16px;
@@ -896,17 +902,14 @@ footer ul {
 }
 .copyright{
     margin-top: 60px;
+    margin-bottom: 80px;
 }
 
 
-
-/* card--- */
+/*header card--- */
 .card {
     width: 456px;
     height: 445px;
-    /* border: 1px solid blue; */
-    /* padding-top: 32px;
-    padding-left: 32px; */
     padding: 32px 32px 0px 32px;
     background-color: #FFFFFF;
 
@@ -925,9 +928,6 @@ footer ul {
     margin-bottom: 24px;
     margin-top: 0px;
     line-height: 21.79px;
-
-
-
 }
 
 .card h3 {
@@ -943,7 +943,6 @@ footer ul {
 
 .card input {
     height: 48px;
-    /* width: 392px; */
     width: 100%;
     font-size: 16px;
     font-weight: 600;
@@ -1043,6 +1042,4 @@ footer ul {
     font-family: 'Open Sans', sans-serif;
     border-style: none;
     margin-bottom: 32px;
-
-
 }

@@ -1,28 +1,34 @@
 @media (min-width: 1400px) {
     .container {
         width: 1320px;
-       
+
     }
+
     .container-inner {
         width: 1140px;
     }
 
-    /* for ready  to rean-- */
-    .housting-container{
-        width: 1320px; 
+    /* for ready  to earn-- */
+    .housting-container {
+        width: 1320px;
         margin: 0px auto;
     }
-    .Earn-container-inner{
+    .Earn-container{
+        width: 1320px;
+        margin: 0px auto; 
+    }
+
+    .Earn-container-inner {
         width: 1140px;
     }
-    
+
     /* for housting container */
 
-    .housting-container{
-        width: 1400px; 
+    .housting-container {
+        width: 1400px;
         margin: 0px;
     }
-  
+
 
 }
 
@@ -39,25 +45,24 @@
     }
 
     /* for ready to earn-- */
-    .Earn-container{
-        width: 1140px; 
+    .Earn-container {
+        width: 1140px;
         margin: 0px auto;
     }
-    .Earn-container-inner{
+
+    .Earn-container-inner {
         width: 1000px;
     }
-    .header-inner-btn{
+
+    .header-inner-btn {
         margin-bottom: 90px;
     }
 
     /* housting container-- */
-    .housting-container{
-        width: 100%; 
-        /* background-color: red; */
+    .housting-container {
+        width: 100%;
         margin: 0px;
     }
-    
-   
 
     /* housting-- */
 
@@ -69,12 +74,11 @@
         margin-bottom: 48px;
         padding-right: 45px;
         display: -webkit-box;
-    max-width: 500px;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    /* padding-right: 20px; */
+        max-width: 500px;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
     .housting-lower {
@@ -92,9 +96,6 @@
     .paymentMade {
         padding-right: 50px;
         gap: 75px;
-    }
-    .paymentStatus ul li img{
-        /* width: 21%; */
     }
 
     .ourBlog-card-3-read {
@@ -128,28 +129,25 @@
 
     .Earn-container-inner {
         width: 960px;
+        padding: 0px 66px 0px 66px;
     }
 
     /* housting container */
-    .housting-container{
-        /* width: 100%;  */
+    .housting-container {
         width: 960px;
-        /* background-color: red; */
-        /* margin: 0px; */
         margin: 0px auto;
     }
+
+    /* nav */
 
     .nav_list ul {
         gap: 35px;
     }
 
-
-
     .card {
         top: 446px;
         right: 252px;
         text-align: left;
-
 
     }
 
@@ -197,14 +195,12 @@
         gap: 20px;
     }
 
-    /* new */
-
     #section-btn {
         display: block;
         margin: 0px auto 16px auto;
     }
 
-
+    /* housting */
 
     .housting-left-img {
         width: 100%;
@@ -212,7 +208,6 @@
 
     .housting-left-img img {
         width: 100%;
-        /* height: 100%; */
     }
 
     .housting-right {
@@ -223,9 +218,10 @@
         margin-bottom: 25px;
         line-height: 30px;
         padding-right: 20px;
-       
+
     }
-    .houstin-right-title{
+
+    .houstin-right-title {
         padding-right: 20px;
     }
 
@@ -249,6 +245,7 @@
         margin-bottom: 140px;
     }
 
+    /* our feature */
 
     .feature-section {
         padding-top: 140px !important;
@@ -270,19 +267,22 @@
     }
 
     .paymentStatus ul li {
-        font-size: 13px;
+        font-size: 14px;
+    }
+    .paymentStatus ul li img{
+        width: 13%;
     }
 
-    .paymentStatus ul li img {
-        /* width: 26%; */
-    }
-    .paymentStatus ul li span{
+    .paymentStatus ul li span {
         padding-right: 0px;
+        padding-left: 5px;
+        padding-top: 0px;
     }
 
     .paymentMade {
         padding-right: 0px;
         gap: 51px;
+        gap: 43px;
     }
 
     /* our-blogs--- */
@@ -311,15 +311,15 @@
         bottom: 18px;
     }
 
+    /* ready to earn */
+
     .readyToEarn {
-        padding-left: 45px;
+        /* padding-left: 45px; */
         margin-bottom: 75px;
     }
 
     .readyToEarn-m-t {
         margin-top: 100px;
-
-        /* hello-- */
     }
 
     /* footer-- */
@@ -343,7 +343,6 @@
         gap: 45px;
     }
 
-
 }
 
 @media (min-width: 768px)and (max-width: 992px) {
@@ -355,22 +354,21 @@
     .container-inner {
         width: 720px;
     }
-
+ 
     /* for ready to earn-- */
     .Earn-container {
         width: 100%;
         margin: 0px auto;
-        /* margin-top: 80px; */
     }
 
     .Earn-container-inner {
         width: 100%;
     }
+
     /* housting container */
 
-    .housting-container{
-        width: 720px; 
-        /* background-color: red; */
+    .housting-container {
+        width: 720px;
         margin: 0px auto;
     }
 
@@ -389,7 +387,7 @@
 
     }
 
-
+    /* header */
     .header {
         background-image: url("./assets/tab-header.png");
         height: 587px;
@@ -408,7 +406,7 @@
     .header-descrip {
         margin-bottom: 24px;
         margin-top: 8px;
-        padding: 0px 39px 0px 39px;
+        padding: 0px 39px 0px 45px;
 
 
     }
@@ -421,11 +419,7 @@
         justify-content: center;
     }
 
-    .header-inner-btn {
-        /* margin-bottom: 81px; */
-    }
-
-    /* card-- */
+    /* header card-- */
     .card {
         top: 468px;
         right: 132px;
@@ -467,7 +461,8 @@
         margin-bottom: 80px;
 
     }
-    .section-summary{
+
+    .section-summary {
         width: 80%;
     }
 
@@ -480,6 +475,9 @@
     .housting-content {
         display: block;
         margin-top: 56px;
+    }
+    .housting-left-img{
+        text-align: center;
     }
 
     .tellUs {
@@ -552,7 +550,6 @@
     /* our feature--- */
 
     .feature-section {
-        /* margin-top: 80px; */
         padding-top: 80px;
     }
 
@@ -593,19 +590,19 @@
         gap: 38px;
     }
 
-    .paymentStatus ul li img {
-        /* width: 21%; */
-    }
-    .paymentStatus ul li span{
+    .paymentStatus ul li span {
         padding-right: 8px;
-        /* line-height: 15px; */
+        padding-top: 0px;
+    }
+    
+    .paymentStatus ul li img{
+        width: 11%;
     }
 
     .payment-section-line {
         margin-top: 107px;
         margin-bottom: 90px;
     }
-
 
     /* my-blogs--- */
     .ourBlog-cards {
@@ -620,11 +617,13 @@
     .ourblogs {
         margin-top: 124px;
     }
-    .card-1-title{
+
+    .card-1-title {
         font-size: 22px;
         line-height: 32px;
     }
-    .ourBlog-card-2-title{
+
+    .ourBlog-card-2-title {
         font-size: 22px;
         line-height: 32px;
     }
@@ -636,7 +635,6 @@
 
     /* host-world-wide-- */
 
-
     .hostWorldwide-inner {
         display: block;
     }
@@ -644,8 +642,9 @@
     .hostAvarage {
         margin-bottom: 65px;
     }
-    .newTotal{
-        gap :96px
+
+    .newTotal {
+        gap: 96px
     }
 
     /* ready-to-earn--- */
@@ -687,7 +686,6 @@
 
     .companyMore {
         width: auto;
-        /* padding-top: 24px; */
     }
 
     .productService-last-row {
@@ -696,6 +694,11 @@
 
     .companyMore-last-row li {
         padding-right: 15px;
+    }
+
+    .copyright {
+        margin-bottom: 60px;
+        margin-top: 36px;
     }
 
 
@@ -715,18 +718,16 @@
     /* for ready to earn-- */
     .Earn-container {
         width: 100%;
-        /* margin: 0px auto; */
-        /* margin-top: 80px; */
     }
 
     .Earn-container-inner {
         width: 100%;
     }
+
     /* housting container-- */
 
-    .housting-container{
-        width: 540px; 
-        /* background-color: red; */
+    .housting-container {
+        width: 540px;
         margin: 0px auto;
     }
 
@@ -745,12 +746,11 @@
 
     }
 
+    /* nav */
+
     .topnav a {
         padding: 23px 18px;
     }
-
-
-
 
     /* header--- */
     .header {
@@ -797,7 +797,6 @@
 
     /* get paid quickly--- */
 
-
     .section-tittle {
         margin-top: 24px;
         font-size: 28px;
@@ -829,7 +828,7 @@
     }
 
     .Lets-rent-title {
-        padding: 0px 24spx;
+        padding: 0px 24px;
         text-align: center;
         margin-bottom: 40px;
         margin-top: 26px;
@@ -840,6 +839,8 @@
         font-size: 20px;
         line-height: 24px;
         margin-top: 0px;
+        padding-left: 24px;
+        padding-right: 24px;
     }
 
     .putYour-screenguist-icon {
@@ -874,7 +875,7 @@
     }
 
     .houstin-right-para {
-        padding-right: 0px;
+        padding-right: 24px;
         padding-left: 24px;
         margin-left: 0px;
         margin-bottom: 40px;
@@ -885,6 +886,8 @@
     .houstin-right-title {
         margin: 23px 0px 7px 0px;
         padding-right: 0px;
+        padding-left: 24px;
+        padding-right: 24px;
 
     }
 
@@ -918,7 +921,6 @@
     .housting-lower-left {
         padding: 0px;
         text-align: center;
-        /* padding-left: 0px; */
 
     }
 
@@ -934,6 +936,8 @@
     .housting-lower-title {
         font-size: 16px;
         line-height: 21.79px;
+        margin-left: 24px;
+        margin-right: 24px;
     }
 
     .housting-lower-right {
@@ -942,7 +946,6 @@
 
     /* our feature-- */
     .feature-section {
-        /* margin-top: 80px; */
         padding-top: 80px;
     }
 
@@ -970,22 +973,17 @@
     .paymentMade {
         display: block;
         padding: 0px;
-        /* justify-content: center; */
     }
 
     .reantal-property {
         padding: 64px 0px 0px 0px;
-
-        /* margin-top: 64px; */
-        /* padding-top: 0px; */
-        /* padding-left: 0px; */
         text-align: center;
     }
 
     .rental-payment-title-descrip {
         font-size: 16px;
         line-height: 28px;
-        padding: 0px 20px;
+        padding: 0px 24px;
         margin-bottom: 24px;
     }
 
@@ -1000,7 +998,6 @@
     }
 
     .paymentStatus ul li {
-        /* margin: auto; */
         justify-content: center;
         margin-bottom: 20px;
     }
@@ -1033,10 +1030,7 @@
         margin-top: 80px;
     }
 
-
-    /* here */
-
-    .lifestyle{
+    .lifestyle {
         font-size: 14px;
         line-height: 20px;
     }
@@ -1046,8 +1040,6 @@
         display: block;
         margin-top: 0px;
     }
-
-
 
     .hostAvarage {
         display: block;
@@ -1122,12 +1114,10 @@
 
     .footer-nav {
         display: block;
-        /* width: 95%; */
         height: auto;
     }
 
     .productService {
-        /* width: 100%; */
         padding-left: 20px;
         justify-content: center;
         gap: 140px;
@@ -1140,8 +1130,8 @@
         padding-right: 20px;
     }
 
+    /* footer */
     .companyMore {
-        /* width: 100%; */
         justify-content: center;
         gap: 168px;
         margin-top: 25px;
@@ -1155,9 +1145,8 @@
     .companyMore-last-row li {
         padding-right: 20px;
     }
-
-    .companyMore {
-        /* padding-left: 20px; */
+    .copyright{
+        display: none;
     }
 }
 
@@ -1173,28 +1162,21 @@
 
     /* for ready to earn-- */
 
-    .Earn-container{
-        width: 100%; 
+    .Earn-container {
+        width: 100%;
         margin: 0px auto;
-        /* margin-top: 80px; */
     }
-    .Earn-container-inner{
+
+    .Earn-container-inner {
         width: 100%;
     }
 
     /* housting container-- */
-    .housting-container{
-        width: 100%; 
-        /* background-color: red; */
-        /* margin: 0px auto; */
-    }
-
-    .container-inner {
-        /* width: 720px; */
+    .housting-container {
+        width: 100%;
     }
 
     /* top nav-- */
-
     .tab-mob-version {
         display: block;
 
@@ -1240,7 +1222,7 @@
     .header-descrip {
         font-size: 20px;
         line-height: 28px;
-        margin-bottom: 20px;
+        margin-bottom: 17px;
         padding-left: 0px;
         display: -webkit-box;
         max-width: 400px;
@@ -1252,7 +1234,7 @@
     }
 
     .header-inner-btn {
-        margin-bottom: 31px;
+        margin-bottom: 34px;
     }
 
     .header-icons {
@@ -1260,13 +1242,9 @@
         display: none;
     }
 
-    /* card-- */
+    /* header card-- */
 
     .card {
-        /* left: 24px;
-        top: 367px; */
-
-        /* top: 367px; */
         top: 127%;
         left: 50%;
         margin-right: -50%;
@@ -1320,9 +1298,6 @@
         margin-bottom: 10px;
     }
 
-    /* new-- */
-
-
     .section-tittle {
         margin-top: 24px;
         font-size: 28px;
@@ -1340,6 +1315,7 @@
         margin: auto;
     }
 
+    /* get paid quickly */
     .Lets-rent {
         display: block;
     }
@@ -1354,7 +1330,7 @@
     }
 
     .Lets-rent-title {
-        padding: 0px 24spx;
+        padding: 0px 24px;
         text-align: center;
         margin-bottom: 40px;
         margin-top: 26px;
@@ -1365,6 +1341,8 @@
         font-size: 20px;
         line-height: 24px;
         margin-top: 0px;
+        padding-left: 24px;
+        padding-left: 24px;
     }
 
     .putYour-screenguist-icon {
@@ -1409,7 +1387,8 @@
 
     .houstin-right-title {
         margin: 23px 0px 7px 0px;
-        padding-right: 0px;
+        padding-left: 24px;
+        padding-right: 24px;
 
     }
 
@@ -1431,8 +1410,6 @@
         margin: auto;
     }
 
-    /* ready to earn-- */
-
     .housting-lower {
         margin-top: 88px;
         display: block;
@@ -1443,7 +1420,6 @@
     .housting-lower-left {
         padding: 0px;
         text-align: center;
-        /* padding-left: 0px; */
 
     }
 
@@ -1459,6 +1435,8 @@
     .housting-lower-title {
         font-size: 16px;
         line-height: 21.79px;
+        margin-left: 24px;
+        margin-right: 24px;
     }
 
     .housting-lower-right {
@@ -1467,7 +1445,6 @@
 
     /* our feature-- */
     .feature-section {
-        /* margin-top: 80px; */
         padding-top: 80px;
     }
 
@@ -1541,51 +1518,59 @@
     }
 
     /* our-blogs--- */
-    .cards{
+    .cards {
         width: 300px;
         height: 440px;
     }
 
-    /* new card-- */
-    .ourBlog-card-1-content{
+    .ourBlog-card-1-content {
         padding-top: 26px;
         padding-left: 26px;
     }
-    .card-1-img{
+
+    .card-1-img {
         top: 161px;
     }
+
     .lifestyle {
         font-size: 14px;
         line-height: 20px;
     }
-    .card-1-title{
+
+    .card-1-title {
         font-size: 20px;
         margin-top: 16px;
         line-height: 24px;
     }
-    .card-1-descript{
+
+    .card-1-descript {
         font-size: 16px;
         line-height: 28px;
     }
 
-    .read-article{
+    .read-article {
         font-size: 16px;
 
     }
-    button span{
+
+    button span {
         right: 34px;
     }
-    .ourBlog-card-2-title{
+
+    .ourBlog-card-2-title {
         font-size: 21px;
     }
-    .card-2-img{
+
+    .card-2-img {
         left: 0px;
         top: 264px;
     }
-    .ourBlog-card-3-title{
+
+    .ourBlog-card-3-title {
         font-size: 21px;
     }
-    .ourBlog-card-3-read{
+
+    .ourBlog-card-3-read {
         left: 61px;
         width: 195px;
     }
@@ -1607,8 +1592,6 @@
         display: block;
         margin-top: 0px;
     }
-
-
 
     .hostAvarage {
         display: block;
@@ -1635,6 +1618,7 @@
         background-image: url("./assets/tree-tab.png");
         border-radius: 0px;
     }
+
     .readyToEarn-heading {
         margin-top: 64px;
         font-size: 28px;
@@ -1718,12 +1702,8 @@
     .companyMore-last-row li {
         padding-right: 20px;
     }
-
-    .companyMore {
-        /* padding-left: 20px; */
+    .copyright{
+        display: none;
     }
-
-
-
 
 }
