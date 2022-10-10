@@ -13,9 +13,10 @@
         width: 1320px;
         margin: 0px auto;
     }
-    .Earn-container{
+
+    .Earn-container {
         width: 1320px;
-        margin: 0px auto; 
+        margin: 0px auto;
     }
 
     .Earn-container-inner {
@@ -27,6 +28,17 @@
     .housting-container {
         width: 1400px;
         margin: 0px;
+    }
+
+    /* feature-container */
+    .feature-container {
+        width: 1320px;
+        margin: 0px auto;
+
+    }
+
+    .feature-container-inner {
+        width: 1140px;
     }
 
 
@@ -62,6 +74,17 @@
     .housting-container {
         width: 100%;
         margin: 0px;
+    }
+
+    /* feature- container */
+    .feature-container {
+        width: 1140px;
+        margin: 0px auto;
+
+    }
+
+    .feature-container-inner {
+        width: 1000px;
     }
 
     /* housting-- */
@@ -136,6 +159,18 @@
     .housting-container {
         width: 960px;
         margin: 0px auto;
+    }
+
+    /* feature containe */
+    .feature-container {
+        width: 960px;
+        margin: 0px auto;
+
+    }
+
+    .feature-container-inner {
+        width: 960px;
+        padding: 0px 66px 0px 66px;
     }
 
     /* nav */
@@ -253,7 +288,7 @@
 
     .controlOver {
         gap: 67px;
-        padding-right: 51px;
+        padding-right: 0px;
         margin-bottom: 100px;
         margin-top: 100px;
     }
@@ -269,7 +304,8 @@
     .paymentStatus ul li {
         font-size: 14px;
     }
-    .paymentStatus ul li img{
+
+    .paymentStatus ul li img {
         width: 13%;
     }
 
@@ -314,7 +350,6 @@
     /* ready to earn */
 
     .readyToEarn {
-        /* padding-left: 45px; */
         margin-bottom: 75px;
     }
 
@@ -354,7 +389,7 @@
     .container-inner {
         width: 720px;
     }
- 
+
     /* for ready to earn-- */
     .Earn-container {
         width: 100%;
@@ -372,10 +407,16 @@
         margin: 0px auto;
     }
 
+    /* feature container */
+    .feature-container {
+        width: 100%;
+        margin: 0px auto;
 
+    }
 
-
-
+    .feature-container-inner {
+        width: 100%;
+    }
 
     .tab-mob-version {
         display: block;
@@ -476,7 +517,8 @@
         display: block;
         margin-top: 56px;
     }
-    .housting-left-img{
+
+    .housting-left-img {
         text-align: center;
     }
 
@@ -570,16 +612,19 @@
     }
 
     .reantal-property {
-        padding-left: 30px;
+        padding-left: 48px;
         padding-top: 23px;
     }
 
     .rentalProperty-right {
         padding-right: 0px;
     }
+    .paymentMade-right{
+        padding-right: 48px;
+    }
 
     .controlOver {
-        gap: 38px;
+        gap: 61px;
         margin-top: 64px;
         margin-bottom: 64px;
     }
@@ -587,16 +632,12 @@
     .paymentMade {
         padding-right: 0px;
         padding-left: 0px;
-        gap: 38px;
+        gap: 41px;
     }
 
     .paymentStatus ul li span {
         padding-right: 8px;
-        padding-top: 0px;
-    }
-    
-    .paymentStatus ul li img{
-        width: 11%;
+        padding-top: 5px;
     }
 
     .payment-section-line {
@@ -615,7 +656,7 @@
     }
 
     .ourblogs {
-        margin-top: 124px;
+        margin-top: 80px;
     }
 
     .card-1-title {
@@ -729,6 +770,17 @@
     .housting-container {
         width: 540px;
         margin: 0px auto;
+    }
+
+    /* feature-container */
+    .feature-container {
+        width: 540px;
+        margin: 0px auto;
+
+    }
+
+    .feature-container-inner {
+        width: 540px;
     }
 
 
@@ -1145,11 +1197,13 @@
     .companyMore-last-row li {
         padding-right: 20px;
     }
-    .copyright{
+
+    .copyright {
         display: none;
     }
 }
 
+/* feature-container */
 @media (min-width: 310px)and (max-width: 576px) {
     .container {
         width: 100%;
@@ -1173,6 +1227,15 @@
 
     /* housting container-- */
     .housting-container {
+        width: 100%;
+    }
+    /* feature container */
+    .feature-container {
+        width: 100%;
+
+    }
+
+    .feature-container-inner {
         width: 100%;
     }
 
@@ -1702,7 +1765,8 @@
     .companyMore-last-row li {
         padding-right: 20px;
     }
-    .copyright{
+
+    .copyright {
         display: none;
     }
 
