@@ -132,6 +132,23 @@ button span {
       font-family: 'Open Sans', sans-serif;
       line-height: 21px;
     }
+    .topnav #myLinks a i{
+        position: absolute;
+    }
+    .topnav #myLinks a button{
+        width: 131px;
+        height: 40px;
+        border: 2px solid #1565D8;
+        color: #1565D8;
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        border-radius: 8px;
+        background-color: #FFFFFF;
+    }
+    #myLinks a{
+        text-align: center;
+        }
     
     .topnav a {
       color: #3A4C66;
@@ -153,7 +170,8 @@ button span {
     }
   
     .card{    
-        box-shadow: 0px 15px 10px -15px #111; 
+        /* box-shadow: 0px 15px 10px -15px #111;  */
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     }
 
 
